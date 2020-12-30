@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mask render Mask correctly 1`] = `
+<Mask
+  isLoading={true}
+  loaderProps={
+    Object {
+      "bsSize": "md",
+    }
+  }
+  show={true}
+>
+  <div
+    className="tm-mask"
+  >
+    <div>
+      <Loader
+        bsClass="tm-loader"
+        bsSize="md"
+      >
+        <span
+          className="loader"
+        >
+          <span
+            className="tm-loader tm-loader-md"
+          />
+        </span>
+      </Loader>
+    </div>
+  </div>
+</Mask>
+`;
+
+exports[`Mask render Mask with loaderProps correctly 1`] = `
+<Mask
+  isLoading={true}
+  loaderProps={
+    Object {
+      "className": "test-className",
+    }
+  }
+  show={true}
+>
+  <div
+    className="tm-mask"
+  >
+    <div>
+      <Loader
+        bsClass="tm-loader"
+        bsSize="sm"
+        className="test-className"
+      >
+        <span
+          className="loader test-className"
+        >
+          <span
+            className="tm-loader tm-loader-sm"
+          />
+        </span>
+      </Loader>
+    </div>
+  </div>
+</Mask>
+`;
+
+exports[`Mask render Mask without isLoading correctly 1`] = `
+<Mask
+  isLoading={false}
+  loaderProps={
+    Object {
+      "bsSize": "md",
+    }
+  }
+  show={true}
+>
+  <div
+    className="tm-mask"
+  >
+    <div />
+  </div>
+</Mask>
+`;
+
+exports[`Mask render Mask without show correctly 1`] = `
+<Mask
+  loaderProps={
+    Object {
+      "bsSize": "md",
+    }
+  }
+  show={false}
+/>
+`;

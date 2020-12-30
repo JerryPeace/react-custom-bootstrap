@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField test helptext prop should render helptext corrently 1`] = `
+<Textfield
+  bsClass="input"
+  delayValidateTime={500}
+  disabled={false}
+  helpText=""
+  helpTextClassName="has-error"
+  helptext="test"
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  multiline={false}
+  standalone={true}
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        disabled={false}
+        helptext="test"
+        onChange={[Function]}
+        type="text"
+      />
+    }
+    bsClass="input"
+    delayValidateTime={500}
+    disabled={false}
+    getInputEl={[Function]}
+    helpText={null}
+    helpTextClassName="has-error"
+    helptext="test"
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={true}
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <input
+        className="form-control"
+        disabled={false}
+        helptext="test"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+  </LayoutHelper>
+</Textfield>
+`;
+
+exports[`TextField test mark and clear invalid function should get correct helptext dom after function called 1`] = `
+<Textfield
+  bsClass="input"
+  delayValidateTime={500}
+  disabled={false}
+  helpText=""
+  helpTextClassName="has-error"
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  multiline={false}
+  standalone={true}
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+    }
+    bsClass="input"
+    delayValidateTime={500}
+    disabled={false}
+    getInputEl={[Function]}
+    helpText="test"
+    helpTextClassName="has-error"
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={true}
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className="has-error"
+    >
+      <input
+        className="form-control"
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+      <HelpText
+        bsClass="help-block"
+        text="test"
+      >
+        <div
+          className=""
+        >
+          <span
+            className="msg help-block"
+          >
+            test
+          </span>
+        </div>
+      </HelpText>
+    </div>
+  </LayoutHelper>
+</Textfield>
+`;
+
+exports[`TextField test mark and clear invalid function should get correct helptext dom after function called 2`] = `
+<Textfield
+  bsClass="input"
+  delayValidateTime={500}
+  disabled={false}
+  helpText=""
+  helpTextClassName="has-error"
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  multiline={false}
+  standalone={true}
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+    }
+    bsClass="input"
+    delayValidateTime={500}
+    disabled={false}
+    getInputEl={[Function]}
+    helpText={null}
+    helpTextClassName="has-error"
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={true}
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <input
+        className="form-control"
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+  </LayoutHelper>
+</Textfield>
+`;
+
+exports[`TextField test validator function should get correct dom after invalid 1`] = `
+<Textfield
+  bsClass="input"
+  delayValidateTime={500}
+  disabled={false}
+  helpText=""
+  helpTextClassName="has-error"
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  multiline={false}
+  standalone={true}
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+    }
+    bsClass="input"
+    delayValidateTime={500}
+    disabled={false}
+    getInputEl={[Function]}
+    helpText="this is invalid"
+    helpTextClassName="has-error"
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={true}
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className="has-error"
+    >
+      <input
+        className="form-control"
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+      <HelpText
+        bsClass="help-block"
+        text="this is invalid"
+      >
+        <div
+          className=""
+        >
+          <span
+            className="msg help-block"
+          >
+            this is invalid
+          </span>
+        </div>
+      </HelpText>
+    </div>
+  </LayoutHelper>
+</Textfield>
+`;
+
+exports[`TextField with default settings should render corrently 1`] = `
+<Textfield
+  bsClass="input"
+  defaultValue="test"
+  delayValidateTime={500}
+  disabled={false}
+  helpText=""
+  helpTextClassName="has-error"
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  multiline={false}
+  standalone={true}
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        defaultValue="test"
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+    }
+    bsClass="input"
+    defaultValue="test"
+    delayValidateTime={500}
+    disabled={false}
+    getInputEl={[Function]}
+    helpText={null}
+    helpTextClassName="has-error"
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={true}
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <input
+        className="form-control"
+        defaultValue="test"
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+  </LayoutHelper>
+</Textfield>
+`;

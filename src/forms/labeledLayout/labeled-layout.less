@@ -1,0 +1,40 @@
+.labeled-layout {
+    width: 100%;
+
+    .labeled-layout-label {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        white-space: nowrap;
+        vertical-align: top;
+        padding: 2px 0 3px 0;
+        width: 10px;
+    }
+
+    .labeled-layout-value {
+        padding-top: 2px;
+        line-height: 20px;
+        vertical-align: middle;
+        word-break: break-word;
+
+        &:not(.whole-row) {
+            padding-left: 12px;
+        }
+    }
+
+    .labeled-layout-row {
+        margin-bottom: 3px;
+    }
+
+    &:not(.no-hover-effect) .labeled-layout-row > td {
+        border-bottom: 1px solid transparent;
+
+        &.labeled-layout-label {
+            color: '#888';
+        }
+    }
+
+    &:not(.no-hover-effect) .labeled-layout-row:hover > td {
+        border-bottom-color: '#e6e6e6';
+    }
+}

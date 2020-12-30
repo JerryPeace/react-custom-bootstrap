@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox could hide search button 1`] = `
+<SearchBox
+  displaySearchBtn={false}
+  onSearch={[Function]}
+  searchBtnProps={Object {}}
+  textFieldProps={Object {}}
+>
+  <InputGroup
+    bsClass="input-group"
+    className="search-box"
+    inputFieldRenderer={[Function]}
+    rightField={null}
+    rightFieldType="button-group"
+  >
+    <div
+      className="search-box input-group"
+    >
+      <ClearableTextField
+        inputType="text"
+        leftIconName="search-o"
+        onClear={[Function]}
+        onKeyUp={[Function]}
+        showLeftIcon={false}
+      >
+        <div
+          className="search-box-input"
+        >
+          <Textfield
+            bsClass="input"
+            delayValidateTime={500}
+            disabled={false}
+            helpText=""
+            helpTextClassName="has-error"
+            inputType="text"
+            labelAlign="left"
+            labelClassName="col-xs-2"
+            layoutHelperClassName=""
+            multiline={false}
+            onChange={[Function]}
+            onKeyUp={[Function]}
+            standalone={true}
+            validator={[Function]}
+            wrapperClassName="col-xs-10"
+          >
+            <LayoutHelper
+              FieldBase={
+                <input
+                  className=""
+                  disabled={false}
+                  layoutHelperClassName=""
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  type="text"
+                />
+              }
+              bsClass="input"
+              delayValidateTime={500}
+              disabled={false}
+              getInputEl={[Function]}
+              helpText={null}
+              helpTextClassName="has-error"
+              inputType="text"
+              labelAlign="left"
+              labelClassName="col-xs-2"
+              layoutHelperClassName=""
+              multiline={false}
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              singleCheckboxRadio={false}
+              standalone={true}
+              validator={[Function]}
+              wrapperClassName="col-xs-10"
+            >
+              <div
+                className=""
+              >
+                <input
+                  className="form-control"
+                  disabled={false}
+                  layoutHelperClassName=""
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  type="text"
+                />
+              </div>
+            </LayoutHelper>
+          </Textfield>
+        </div>
+      </ClearableTextField>
+    </div>
+  </InputGroup>
+</SearchBox>
+`;
+
+exports[`SearchBox could show search button 1`] = `
+<SearchBox
+  displaySearchBtn={true}
+  onSearch={[Function]}
+  searchBtnProps={Object {}}
+  textFieldProps={Object {}}
+>
+  <InputGroup
+    bsClass="input-group"
+    className="search-box has-search-btn"
+    inputFieldRenderer={[Function]}
+    rightField={
+      <Button
+        active={false}
+        block={false}
+        bsClass="button"
+        bsStyle="default"
+        className="serach-box-btn"
+        disabled={false}
+        faProps={Object {}}
+        faStyle="search"
+        isCaretStyle={false}
+        isDropdown={false}
+        isIconOnly={true}
+        isLoading={false}
+        onClick={[Function]}
+        standalone={true}
+        type="button"
+      />
+    }
+    rightFieldType="button-group"
+  >
+    <div
+      className="search-box has-search-btn input-group"
+    >
+      <ClearableTextField
+        inputType="text"
+        leftIconName="search-o"
+        onClear={[Function]}
+        onKeyUp={[Function]}
+        showLeftIcon={false}
+      >
+        <div
+          className="search-box-input"
+        >
+          <Textfield
+            bsClass="input"
+            delayValidateTime={500}
+            disabled={false}
+            helpText=""
+            helpTextClassName="has-error"
+            inputType="text"
+            labelAlign="left"
+            labelClassName="col-xs-2"
+            layoutHelperClassName=""
+            multiline={false}
+            onChange={[Function]}
+            onKeyUp={[Function]}
+            standalone={true}
+            validator={[Function]}
+            wrapperClassName="col-xs-10"
+          >
+            <LayoutHelper
+              FieldBase={
+                <input
+                  className=""
+                  disabled={false}
+                  layoutHelperClassName=""
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  type="text"
+                />
+              }
+              bsClass="input"
+              delayValidateTime={500}
+              disabled={false}
+              getInputEl={[Function]}
+              helpText={null}
+              helpTextClassName="has-error"
+              inputType="text"
+              labelAlign="left"
+              labelClassName="col-xs-2"
+              layoutHelperClassName=""
+              multiline={false}
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              singleCheckboxRadio={false}
+              standalone={true}
+              validator={[Function]}
+              wrapperClassName="col-xs-10"
+            >
+              <div
+                className=""
+              >
+                <input
+                  className="form-control"
+                  disabled={false}
+                  layoutHelperClassName=""
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  type="text"
+                />
+              </div>
+            </LayoutHelper>
+          </Textfield>
+        </div>
+      </ClearableTextField>
+      <span
+        className="input-group-btn"
+      >
+        <Button
+          active={false}
+          block={false}
+          bsClass="button"
+          bsStyle="default"
+          className="serach-box-btn"
+          disabled={false}
+          faProps={Object {}}
+          faStyle="search"
+          isCaretStyle={false}
+          isDropdown={false}
+          isIconOnly={true}
+          isLoading={false}
+          onClick={[Function]}
+          standalone={true}
+          type="button"
+        >
+          <button
+            className="btn btn-default btn-icon-only serach-box-btn"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              className="btn-icon"
+            >
+              <i
+                className="fa fa-search"
+              />
+            </span>
+          </button>
+        </Button>
+      </span>
+    </div>
+  </InputGroup>
+</SearchBox>
+`;
+
+exports[`SearchBox should render corrently 1`] = `
+<SearchBox
+  defaultValue="defaultValue"
+  displaySearchBtn={false}
+  onSearch={[Function]}
+  searchBtnProps={Object {}}
+  textFieldProps={Object {}}
+>
+  <InputGroup
+    bsClass="input-group"
+    className="search-box"
+    inputFieldRenderer={[Function]}
+    rightField={null}
+    rightFieldType="button-group"
+  >
+    <div
+      className="search-box input-group"
+    >
+      <ClearableTextField
+        inputType="text"
+        leftIconName="search-o"
+        onClear={[Function]}
+        onKeyUp={[Function]}
+        showLeftIcon={false}
+      >
+        <div
+          className="search-box-input"
+        >
+          <Textfield
+            bsClass="input"
+            delayValidateTime={500}
+            disabled={false}
+            helpText=""
+            helpTextClassName="has-error"
+            inputType="text"
+            labelAlign="left"
+            labelClassName="col-xs-2"
+            layoutHelperClassName=""
+            multiline={false}
+            onChange={[Function]}
+            onKeyUp={[Function]}
+            standalone={true}
+            validator={[Function]}
+            wrapperClassName="col-xs-10"
+          >
+            <LayoutHelper
+              FieldBase={
+                <input
+                  className=""
+                  disabled={false}
+                  layoutHelperClassName=""
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  type="text"
+                />
+              }
+              bsClass="input"
+              delayValidateTime={500}
+              disabled={false}
+              getInputEl={[Function]}
+              helpText={null}
+              helpTextClassName="has-error"
+              inputType="text"
+              labelAlign="left"
+              labelClassName="col-xs-2"
+              layoutHelperClassName=""
+              multiline={false}
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              singleCheckboxRadio={false}
+              standalone={true}
+              validator={[Function]}
+              wrapperClassName="col-xs-10"
+            >
+              <div
+                className=""
+              >
+                <input
+                  className="form-control"
+                  disabled={false}
+                  layoutHelperClassName=""
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  type="text"
+                />
+              </div>
+            </LayoutHelper>
+          </Textfield>
+        </div>
+      </ClearableTextField>
+    </div>
+  </InputGroup>
+</SearchBox>
+`;

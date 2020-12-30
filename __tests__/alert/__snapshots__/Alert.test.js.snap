@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert toast alert should contains toast-alert class name 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="warning"
+  closable={true}
+  isShortMsg={false}
+  titleText="title-text"
+  type="toast"
+>
+  <div
+    className="tm-alert-dismissable tm-alert-block toast-alert alert alert-warning"
+    type="toast"
+  >
+    <CloseIcon
+      onClick={[Function]}
+    >
+      <a
+        className="close"
+        href="#"
+        onClick={[Function]}
+      >
+        <span>
+          ×
+        </span>
+      </a>
+    </CloseIcon>
+    <strong
+      className="tm-alert-title"
+      style={
+        Object {
+          "marginRight": "5px",
+        }
+      }
+    >
+      title-text
+    </strong>
+    alert-message
+  </div>
+</Alert>
+`;
+
+exports[`Alert with default settings should close it while clicking close button 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="warning"
+  closable={true}
+  isShortMsg={false}
+  titleText="title-text"
+/>
+`;
+
+exports[`Alert with default settings should render corrently 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="warning"
+  closable={true}
+  isShortMsg={false}
+  titleText="title-text"
+>
+  <div
+    className="tm-alert-dismissable tm-alert-block alert alert-warning"
+  >
+    <CloseIcon
+      onClick={[Function]}
+    >
+      <a
+        className="close"
+        href="#"
+        onClick={[Function]}
+      >
+        <span>
+          ×
+        </span>
+      </a>
+    </CloseIcon>
+    <strong
+      className="tm-alert-title"
+      style={
+        Object {
+          "marginRight": "5px",
+        }
+      }
+    >
+      title-text
+    </strong>
+    alert-message
+  </div>
+</Alert>
+`;
+
+exports[`Alert with onClose callback should call onClose callback while clicking on it 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="warning"
+  closable={true}
+  isShortMsg={false}
+  onClose={[Function]}
+  titleText="title-text-with-close"
+/>
+`;
+
+exports[`Alert with onClose callback should render corrently 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="warning"
+  closable={true}
+  isShortMsg={false}
+  onClose={[Function]}
+  titleText="title-text-with-close"
+>
+  <div
+    className="tm-alert-dismissable tm-alert-block alert alert-warning"
+  >
+    <CloseIcon
+      onClick={[Function]}
+    >
+      <a
+        className="close"
+        href="#"
+        onClick={[Function]}
+      >
+        <span>
+          ×
+        </span>
+      </a>
+    </CloseIcon>
+    <strong
+      className="tm-alert-title"
+      style={
+        Object {
+          "marginRight": "5px",
+        }
+      }
+    >
+      title-text-with-close
+    </strong>
+    alert-message
+  </div>
+</Alert>
+`;

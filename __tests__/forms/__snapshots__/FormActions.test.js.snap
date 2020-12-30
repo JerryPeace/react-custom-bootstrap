@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormActions render form correctly 1`] = `
+<FormActions>
+  <div
+    className="tm-form-actions"
+  >
+    <div>
+      test
+    </div>
+  </div>
+</FormActions>
+`;

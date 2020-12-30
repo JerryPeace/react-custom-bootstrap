@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label with default settings 1`] = `
+<Label
+  inline={false}
+  labelAlign="right"
+  text="label text"
+>
+  <label
+    className=""
+  >
+    children
+    label text
+  </label>
+</Label>
+`;
+
+exports[`Label with empty text 1`] = `
+<Label
+  inline={false}
+  labelAlign="right"
+  text=""
+>
+  <label
+    className=""
+  />
+</Label>
+`;
+
+exports[`Label with labelAlign is left 1`] = `
+<Label
+  inline={false}
+  labelAlign="left"
+  text="label text"
+>
+  <label
+    className=""
+  >
+    label text
+    children
+  </label>
+</Label>
+`;

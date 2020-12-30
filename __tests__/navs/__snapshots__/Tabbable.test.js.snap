@@ -1,0 +1,2506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabbable with 3 tabs render correctly with tabs 1`] = `
+<Tabbable
+  activeTab="bb"
+  bsClass="tabbable"
+  cover={false}
+  items={
+    Array [
+      Object {
+        "text": <div>
+          aa
+    </div>,
+        "value": "aa",
+      },
+      Object {
+        "href": "#bb",
+        "text": <div>
+          bb
+    </div>,
+        "value": "bb",
+      },
+      Object {
+        "href": "#cc",
+        "text": <div>
+          cc
+    </div>,
+        "value": Object {
+          "cc": 1,
+        },
+      },
+    ]
+  }
+  menuTopOffset={0}
+  onClick={[Function]}
+>
+  <div
+    className="tabbable"
+  >
+    <DragDropContext(NavTabs)
+      activeTab="bb"
+      cover={false}
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+      onClick={[Function]}
+      toggleSubMenu={[Function]}
+    >
+      <NavTabs
+        activeTab="bb"
+        bsClass="nav"
+        cover={false}
+        items={
+          Array [
+            Object {
+              "text": <div>
+                aa
+          </div>,
+              "value": "aa",
+            },
+            Object {
+              "href": "#bb",
+              "text": <div>
+                bb
+          </div>,
+              "value": "bb",
+            },
+            Object {
+              "href": "#cc",
+              "text": <div>
+                cc
+          </div>,
+              "value": Object {
+                "cc": 1,
+              },
+            },
+          ]
+        }
+        onClick={[Function]}
+        toggleSubMenu={[Function]}
+      >
+        <div
+          className="tabs"
+        >
+          <div
+            className="left-pane"
+          />
+          <ul
+            className="nav-pane nav"
+          >
+            <DropTarget(DragSource(TabLabel))
+              activeTab="bb"
+              index={0}
+              item={
+                Object {
+                  "text": <div>
+                    aa
+                </div>,
+                  "value": "aa",
+                }
+              }
+              onClick={[Function]}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="bb"
+                connectDropTarget={[Function]}
+                index={0}
+                isOver={false}
+                item={
+                  Object {
+                    "text": <div>
+                      aa
+                  </div>,
+                    "value": "aa",
+                  }
+                }
+                onClick={[Function]}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="bb"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={0}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "text": <div>
+                        aa
+                    </div>,
+                      "value": "aa",
+                    }
+                  }
+                  onClick={[Function]}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        aa
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="bb"
+              index={1}
+              item={
+                Object {
+                  "href": "#bb",
+                  "text": <div>
+                    bb
+                </div>,
+                  "value": "bb",
+                }
+              }
+              onClick={null}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="bb"
+                connectDropTarget={[Function]}
+                index={1}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#bb",
+                    "text": <div>
+                      bb
+                  </div>,
+                    "value": "bb",
+                  }
+                }
+                onClick={null}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="bb"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={1}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#bb",
+                      "text": <div>
+                        bb
+                    </div>,
+                      "value": "bb",
+                    }
+                  }
+                  onClick={null}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className="active"
+                  >
+                    <button
+                      href="#bb"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        bb
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="bb"
+              index={2}
+              item={
+                Object {
+                  "href": "#cc",
+                  "text": <div>
+                    cc
+                </div>,
+                  "value": Object {
+                    "cc": 1,
+                  },
+                }
+              }
+              onClick={[Function]}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="bb"
+                connectDropTarget={[Function]}
+                index={2}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#cc",
+                    "text": <div>
+                      cc
+                  </div>,
+                    "value": Object {
+                      "cc": 1,
+                    },
+                  }
+                }
+                onClick={[Function]}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="bb"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={2}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#cc",
+                      "text": <div>
+                        cc
+                    </div>,
+                      "value": Object {
+                        "cc": 1,
+                      },
+                    }
+                  }
+                  onClick={[Function]}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#cc"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        cc
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+          </ul>
+          <div
+            className="right-pane"
+          />
+        </div>
+      </NavTabs>
+    </DragDropContext(NavTabs)>
+    <TabContent
+      activeTab="bb"
+      bsClass="tab-content"
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+    >
+      <div
+        className="tab-content"
+      >
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab aa
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={true}
+          bsClass="tab-pane"
+        >
+          <div
+            className="active tab-pane"
+          >
+            <div>
+              tab bb
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab cc
+            </div>
+          </div>
+        </TabPanel>
+      </div>
+    </TabContent>
+  </div>
+</Tabbable>
+`;
+
+exports[`Tabbable with 3 tabs render tabbable with wrong activeTab value 1`] = `
+<Tabbable
+  activeTab="unknown"
+  bsClass="tabbable"
+  cover={false}
+  items={
+    Array [
+      Object {
+        "text": <div>
+          aa
+    </div>,
+        "value": "aa",
+      },
+      Object {
+        "href": "#bb",
+        "text": <div>
+          bb
+    </div>,
+        "value": "bb",
+      },
+      Object {
+        "href": "#cc",
+        "text": <div>
+          cc
+    </div>,
+        "value": Object {
+          "cc": 1,
+        },
+      },
+    ]
+  }
+  menuTopOffset={0}
+>
+  <div
+    className="tabbable"
+  >
+    <DragDropContext(NavTabs)
+      activeTab="aa"
+      cover={false}
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+      toggleSubMenu={[Function]}
+    >
+      <NavTabs
+        activeTab="aa"
+        bsClass="nav"
+        cover={false}
+        items={
+          Array [
+            Object {
+              "text": <div>
+                aa
+          </div>,
+              "value": "aa",
+            },
+            Object {
+              "href": "#bb",
+              "text": <div>
+                bb
+          </div>,
+              "value": "bb",
+            },
+            Object {
+              "href": "#cc",
+              "text": <div>
+                cc
+          </div>,
+              "value": Object {
+                "cc": 1,
+              },
+            },
+          ]
+        }
+        toggleSubMenu={[Function]}
+      >
+        <div
+          className="tabs"
+        >
+          <div
+            className="left-pane"
+          />
+          <ul
+            className="nav-pane nav"
+          >
+            <DropTarget(DragSource(TabLabel))
+              activeTab="aa"
+              index={0}
+              item={
+                Object {
+                  "text": <div>
+                    aa
+                </div>,
+                  "value": "aa",
+                }
+              }
+              onClick={null}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="aa"
+                connectDropTarget={[Function]}
+                index={0}
+                isOver={false}
+                item={
+                  Object {
+                    "text": <div>
+                      aa
+                  </div>,
+                    "value": "aa",
+                  }
+                }
+                onClick={null}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="aa"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={0}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "text": <div>
+                        aa
+                    </div>,
+                      "value": "aa",
+                    }
+                  }
+                  onClick={null}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className="active"
+                  >
+                    <button
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        aa
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="aa"
+              index={1}
+              item={
+                Object {
+                  "href": "#bb",
+                  "text": <div>
+                    bb
+                </div>,
+                  "value": "bb",
+                }
+              }
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="aa"
+                connectDropTarget={[Function]}
+                index={1}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#bb",
+                    "text": <div>
+                      bb
+                  </div>,
+                    "value": "bb",
+                  }
+                }
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="aa"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={1}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#bb",
+                      "text": <div>
+                        bb
+                    </div>,
+                      "value": "bb",
+                    }
+                  }
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#bb"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        bb
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="aa"
+              index={2}
+              item={
+                Object {
+                  "href": "#cc",
+                  "text": <div>
+                    cc
+                </div>,
+                  "value": Object {
+                    "cc": 1,
+                  },
+                }
+              }
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="aa"
+                connectDropTarget={[Function]}
+                index={2}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#cc",
+                    "text": <div>
+                      cc
+                  </div>,
+                    "value": Object {
+                      "cc": 1,
+                    },
+                  }
+                }
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="aa"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={2}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#cc",
+                      "text": <div>
+                        cc
+                    </div>,
+                      "value": Object {
+                        "cc": 1,
+                      },
+                    }
+                  }
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#cc"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        cc
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+          </ul>
+          <div
+            className="right-pane"
+          />
+        </div>
+      </NavTabs>
+    </DragDropContext(NavTabs)>
+    <TabContent
+      activeTab="aa"
+      bsClass="tab-content"
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+    >
+      <div
+        className="tab-content"
+      >
+        <TabPanel
+          active={true}
+          bsClass="tab-pane"
+        >
+          <div
+            className="active tab-pane"
+          >
+            <div>
+              tab aa
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab bb
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab cc
+            </div>
+          </div>
+        </TabPanel>
+      </div>
+    </TabContent>
+  </div>
+</Tabbable>
+`;
+
+exports[`Tabbable with 3 tabs use props to switch activeTab to aa 1`] = `
+<Tabbable
+  activeTab="aa"
+  bsClass="tabbable"
+  cover={false}
+  items={
+    Array [
+      Object {
+        "text": <div>
+          aa
+    </div>,
+        "value": "aa",
+      },
+      Object {
+        "href": "#bb",
+        "text": <div>
+          bb
+    </div>,
+        "value": "bb",
+      },
+      Object {
+        "href": "#cc",
+        "text": <div>
+          cc
+    </div>,
+        "value": Object {
+          "cc": 1,
+        },
+      },
+    ]
+  }
+  menuTopOffset={0}
+  onClick={[Function]}
+>
+  <div
+    className="tabbable"
+  >
+    <DragDropContext(NavTabs)
+      activeTab="aa"
+      cover={false}
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+      onClick={[Function]}
+      toggleSubMenu={[Function]}
+    >
+      <NavTabs
+        activeTab="aa"
+        bsClass="nav"
+        cover={false}
+        items={
+          Array [
+            Object {
+              "text": <div>
+                aa
+          </div>,
+              "value": "aa",
+            },
+            Object {
+              "href": "#bb",
+              "text": <div>
+                bb
+          </div>,
+              "value": "bb",
+            },
+            Object {
+              "href": "#cc",
+              "text": <div>
+                cc
+          </div>,
+              "value": Object {
+                "cc": 1,
+              },
+            },
+          ]
+        }
+        onClick={[Function]}
+        toggleSubMenu={[Function]}
+      >
+        <div
+          className="tabs"
+        >
+          <div
+            className="left-pane"
+          />
+          <ul
+            className="nav-pane nav"
+          >
+            <DropTarget(DragSource(TabLabel))
+              activeTab="aa"
+              index={0}
+              item={
+                Object {
+                  "text": <div>
+                    aa
+                </div>,
+                  "value": "aa",
+                }
+              }
+              onClick={null}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="aa"
+                connectDropTarget={[Function]}
+                index={0}
+                isOver={false}
+                item={
+                  Object {
+                    "text": <div>
+                      aa
+                  </div>,
+                    "value": "aa",
+                  }
+                }
+                onClick={null}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="aa"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={0}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "text": <div>
+                        aa
+                    </div>,
+                      "value": "aa",
+                    }
+                  }
+                  onClick={null}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className="active"
+                  >
+                    <button
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        aa
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="aa"
+              index={1}
+              item={
+                Object {
+                  "href": "#bb",
+                  "text": <div>
+                    bb
+                </div>,
+                  "value": "bb",
+                }
+              }
+              onClick={[Function]}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="aa"
+                connectDropTarget={[Function]}
+                index={1}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#bb",
+                    "text": <div>
+                      bb
+                  </div>,
+                    "value": "bb",
+                  }
+                }
+                onClick={[Function]}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="aa"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={1}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#bb",
+                      "text": <div>
+                        bb
+                    </div>,
+                      "value": "bb",
+                    }
+                  }
+                  onClick={[Function]}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#bb"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        bb
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="aa"
+              index={2}
+              item={
+                Object {
+                  "href": "#cc",
+                  "text": <div>
+                    cc
+                </div>,
+                  "value": Object {
+                    "cc": 1,
+                  },
+                }
+              }
+              onClick={[Function]}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="aa"
+                connectDropTarget={[Function]}
+                index={2}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#cc",
+                    "text": <div>
+                      cc
+                  </div>,
+                    "value": Object {
+                      "cc": 1,
+                    },
+                  }
+                }
+                onClick={[Function]}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="aa"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={2}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#cc",
+                      "text": <div>
+                        cc
+                    </div>,
+                      "value": Object {
+                        "cc": 1,
+                      },
+                    }
+                  }
+                  onClick={[Function]}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#cc"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        cc
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+          </ul>
+          <div
+            className="right-pane"
+          />
+        </div>
+      </NavTabs>
+    </DragDropContext(NavTabs)>
+    <TabContent
+      activeTab="aa"
+      bsClass="tab-content"
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+    >
+      <div
+        className="tab-content"
+      >
+        <TabPanel
+          active={true}
+          bsClass="tab-pane"
+        >
+          <div
+            className="active tab-pane"
+          >
+            <div>
+              tab aa
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab bb
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab cc
+            </div>
+          </div>
+        </TabPanel>
+      </div>
+    </TabContent>
+  </div>
+</Tabbable>
+`;
+
+exports[`Tabbable with single tab render correctly with single tab 1`] = `
+<Tabbable
+  activeTab="aa"
+  bsClass="tabbable"
+  cover={false}
+  items={
+    Array [
+      Object {
+        "text": <div>
+          aa
+    </div>,
+        "value": "aa",
+      },
+    ]
+  }
+  menuTopOffset={0}
+>
+  <div
+    className="tabbable"
+  >
+    <DragDropContext(NavTabs)
+      activeTab="aa"
+      cover={false}
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+        ]
+      }
+      toggleSubMenu={[Function]}
+    >
+      <NavTabs
+        activeTab="aa"
+        bsClass="nav"
+        cover={false}
+        items={
+          Array [
+            Object {
+              "text": <div>
+                aa
+          </div>,
+              "value": "aa",
+            },
+          ]
+        }
+        toggleSubMenu={[Function]}
+      >
+        <div
+          className="tabs"
+        >
+          <div
+            className="left-pane"
+          />
+          <ul
+            className="nav-pane nav"
+          >
+            <DropTarget(DragSource(TabLabel))
+              activeTab="aa"
+              index={0}
+              item={
+                Object {
+                  "text": <div>
+                    aa
+                </div>,
+                  "value": "aa",
+                }
+              }
+              onClick={null}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="aa"
+                connectDropTarget={[Function]}
+                index={0}
+                isOver={false}
+                item={
+                  Object {
+                    "text": <div>
+                      aa
+                  </div>,
+                    "value": "aa",
+                  }
+                }
+                onClick={null}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="aa"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={0}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "text": <div>
+                        aa
+                    </div>,
+                      "value": "aa",
+                    }
+                  }
+                  onClick={null}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className="active"
+                  >
+                    <button
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        aa
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+          </ul>
+          <div
+            className="right-pane"
+          />
+        </div>
+      </NavTabs>
+    </DragDropContext(NavTabs)>
+    <TabContent
+      activeTab="aa"
+      bsClass="tab-content"
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+        ]
+      }
+    >
+      <div
+        className="tab-content"
+      >
+        <TabPanel
+          active={true}
+          bsClass="tab-pane"
+        >
+          <div
+            className="active tab-pane"
+          >
+            <div>
+              aa
+            </div>
+          </div>
+        </TabPanel>
+      </div>
+    </TabContent>
+  </div>
+</Tabbable>
+`;
+
+exports[`Tabbable with sub-menu click icon to show submenu 1`] = `
+<Tabbable
+  activeTab="bb"
+  bsClass="tabbable"
+  cover={false}
+  items={
+    Array [
+      Object {
+        "text": <div>
+          aa
+    </div>,
+        "value": "aa",
+      },
+      Object {
+        "href": "#bb",
+        "subMenu": Array [
+          Object {
+            "text": <div>
+              SUB-MENU 1
+    </div>,
+            "value": "submenu1",
+          },
+          Object {
+            "text": <div>
+              SUB-MENU 2
+    </div>,
+            "value": "submenu2",
+          },
+        ],
+        "text": <div>
+          bb
+    </div>,
+        "value": "bb",
+      },
+      Object {
+        "href": "#cc",
+        "text": <div>
+          cc
+    </div>,
+        "value": Object {
+          "cc": 1,
+        },
+      },
+    ]
+  }
+  menuTopOffset={0}
+  onClick={[Function]}
+  onSubMenuClick={[Function]}
+>
+  <div
+    className="tabbable menu-active"
+  >
+    <DragDropContext(NavTabs)
+      activeTab="bb"
+      cover={false}
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "subMenu": Array [
+              Object {
+                "text": <div>
+                  SUB-MENU 1
+        </div>,
+                "value": "submenu1",
+              },
+              Object {
+                "text": <div>
+                  SUB-MENU 2
+        </div>,
+                "value": "submenu2",
+              },
+            ],
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+      onClick={[Function]}
+      toggleSubMenu={[Function]}
+    >
+      <NavTabs
+        activeTab="bb"
+        bsClass="nav"
+        cover={false}
+        items={
+          Array [
+            Object {
+              "text": <div>
+                aa
+          </div>,
+              "value": "aa",
+            },
+            Object {
+              "href": "#bb",
+              "subMenu": Array [
+                Object {
+                  "text": <div>
+                    SUB-MENU 1
+          </div>,
+                  "value": "submenu1",
+                },
+                Object {
+                  "text": <div>
+                    SUB-MENU 2
+          </div>,
+                  "value": "submenu2",
+                },
+              ],
+              "text": <div>
+                bb
+          </div>,
+              "value": "bb",
+            },
+            Object {
+              "href": "#cc",
+              "text": <div>
+                cc
+          </div>,
+              "value": Object {
+                "cc": 1,
+              },
+            },
+          ]
+        }
+        onClick={[Function]}
+        toggleSubMenu={[Function]}
+      >
+        <div
+          className="tabs"
+        >
+          <div
+            className="left-pane"
+          />
+          <ul
+            className="nav-pane nav"
+          >
+            <DropTarget(DragSource(TabLabel))
+              activeTab="bb"
+              index={0}
+              item={
+                Object {
+                  "text": <div>
+                    aa
+                </div>,
+                  "value": "aa",
+                }
+              }
+              onClick={[Function]}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="bb"
+                connectDropTarget={[Function]}
+                index={0}
+                isOver={false}
+                item={
+                  Object {
+                    "text": <div>
+                      aa
+                  </div>,
+                    "value": "aa",
+                  }
+                }
+                onClick={[Function]}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="bb"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={0}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "text": <div>
+                        aa
+                    </div>,
+                      "value": "aa",
+                    }
+                  }
+                  onClick={[Function]}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        aa
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="bb"
+              index={1}
+              item={
+                Object {
+                  "href": "#bb",
+                  "subMenu": Array [
+                    Object {
+                      "text": <div>
+                        SUB-MENU 1
+                </div>,
+                      "value": "submenu1",
+                    },
+                    Object {
+                      "text": <div>
+                        SUB-MENU 2
+                </div>,
+                      "value": "submenu2",
+                    },
+                  ],
+                  "text": <div>
+                    bb
+                </div>,
+                  "value": "bb",
+                }
+              }
+              onClick={null}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="bb"
+                connectDropTarget={[Function]}
+                index={1}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#bb",
+                    "subMenu": Array [
+                      Object {
+                        "text": <div>
+                          SUB-MENU 1
+                  </div>,
+                        "value": "submenu1",
+                      },
+                      Object {
+                        "text": <div>
+                          SUB-MENU 2
+                  </div>,
+                        "value": "submenu2",
+                      },
+                    ],
+                    "text": <div>
+                      bb
+                  </div>,
+                    "value": "bb",
+                  }
+                }
+                onClick={null}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="bb"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={1}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#bb",
+                      "subMenu": Array [
+                        Object {
+                          "text": <div>
+                            SUB-MENU 1
+                    </div>,
+                          "value": "submenu1",
+                        },
+                        Object {
+                          "text": <div>
+                            SUB-MENU 2
+                    </div>,
+                          "value": "submenu2",
+                        },
+                      ],
+                      "text": <div>
+                        bb
+                    </div>,
+                      "value": "bb",
+                    }
+                  }
+                  onClick={null}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className="active"
+                  >
+                    <button
+                      href="#bb"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        bb
+                      </div>
+                    </button>
+                    <SubMenu
+                      menu={
+                        Array [
+                          Object {
+                            "text": <div>
+                              SUB-MENU 1
+                        </div>,
+                            "value": "submenu1",
+                          },
+                          Object {
+                            "text": <div>
+                              SUB-MENU 2
+                        </div>,
+                            "value": "submenu2",
+                          },
+                        ]
+                      }
+                      toggleSubMenu={[Function]}
+                    >
+                      <div
+                        className="submenu"
+                      >
+                        <a
+                          className="fa fa-angle-down"
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </SubMenu>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="bb"
+              index={2}
+              item={
+                Object {
+                  "href": "#cc",
+                  "text": <div>
+                    cc
+                </div>,
+                  "value": Object {
+                    "cc": 1,
+                  },
+                }
+              }
+              onClick={[Function]}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="bb"
+                connectDropTarget={[Function]}
+                index={2}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#cc",
+                    "text": <div>
+                      cc
+                  </div>,
+                    "value": Object {
+                      "cc": 1,
+                    },
+                  }
+                }
+                onClick={[Function]}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="bb"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={2}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#cc",
+                      "text": <div>
+                        cc
+                    </div>,
+                      "value": Object {
+                        "cc": 1,
+                      },
+                    }
+                  }
+                  onClick={[Function]}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#cc"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        cc
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+          </ul>
+          <div
+            className="right-pane"
+          />
+        </div>
+      </NavTabs>
+    </DragDropContext(NavTabs)>
+    <TabContent
+      activeTab="bb"
+      bsClass="tab-content"
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "subMenu": Array [
+              Object {
+                "text": <div>
+                  SUB-MENU 1
+        </div>,
+                "value": "submenu1",
+              },
+              Object {
+                "text": <div>
+                  SUB-MENU 2
+        </div>,
+                "value": "submenu2",
+              },
+            ],
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+    >
+      <div
+        className="tab-content"
+      >
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab aa
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={true}
+          bsClass="tab-pane"
+        >
+          <div
+            className="active tab-pane"
+          >
+            <div>
+              tab bb
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab cc
+            </div>
+          </div>
+        </TabPanel>
+      </div>
+    </TabContent>
+    <Menu
+      bsClass="dropdown-menu"
+      isMenuAlignRight={false}
+      isMenuCheckStyle={false}
+      isMenuOpen={true}
+      isSubMenuOpenLeft={false}
+      noRootClose={false}
+      onRootClose={[Function]}
+    >
+      <RootCloseWrapper
+        disabled={false}
+        event="click"
+        onRootClose={[Function]}
+      >
+        <ul
+          className="dropdown-menu"
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <MenuItem
+            deselectable={false}
+            disabled={false}
+            divider={false}
+            header={false}
+            href=""
+            noRootClose={false}
+            onSelect={[Function]}
+            selectData="submenu1"
+          >
+            <li
+              className=""
+              style={null}
+            >
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                <div>
+                  SUB-MENU 1
+                </div>
+              </a>
+            </li>
+          </MenuItem>
+          <MenuItem
+            deselectable={false}
+            disabled={false}
+            divider={false}
+            header={false}
+            href=""
+            noRootClose={false}
+            onSelect={[Function]}
+            selectData="submenu2"
+          >
+            <li
+              className=""
+              style={null}
+            >
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                <div>
+                  SUB-MENU 2
+                </div>
+              </a>
+            </li>
+          </MenuItem>
+        </ul>
+      </RootCloseWrapper>
+    </Menu>
+  </div>
+</Tabbable>
+`;
+
+exports[`Tabbable with sub-menu render submenu on tabbable 1`] = `
+<Tabbable
+  activeTab="bb"
+  bsClass="tabbable"
+  cover={false}
+  items={
+    Array [
+      Object {
+        "text": <div>
+          aa
+    </div>,
+        "value": "aa",
+      },
+      Object {
+        "href": "#bb",
+        "subMenu": Array [
+          Object {
+            "text": <div>
+              SUB-MENU 1
+    </div>,
+            "value": "submenu1",
+          },
+          Object {
+            "text": <div>
+              SUB-MENU 2
+    </div>,
+            "value": "submenu2",
+          },
+        ],
+        "text": <div>
+          bb
+    </div>,
+        "value": "bb",
+      },
+      Object {
+        "href": "#cc",
+        "text": <div>
+          cc
+    </div>,
+        "value": Object {
+          "cc": 1,
+        },
+      },
+    ]
+  }
+  menuTopOffset={0}
+  onClick={[Function]}
+  onSubMenuClick={[Function]}
+>
+  <div
+    className="tabbable"
+  >
+    <DragDropContext(NavTabs)
+      activeTab="bb"
+      cover={false}
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "subMenu": Array [
+              Object {
+                "text": <div>
+                  SUB-MENU 1
+        </div>,
+                "value": "submenu1",
+              },
+              Object {
+                "text": <div>
+                  SUB-MENU 2
+        </div>,
+                "value": "submenu2",
+              },
+            ],
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+      onClick={[Function]}
+      toggleSubMenu={[Function]}
+    >
+      <NavTabs
+        activeTab="bb"
+        bsClass="nav"
+        cover={false}
+        items={
+          Array [
+            Object {
+              "text": <div>
+                aa
+          </div>,
+              "value": "aa",
+            },
+            Object {
+              "href": "#bb",
+              "subMenu": Array [
+                Object {
+                  "text": <div>
+                    SUB-MENU 1
+          </div>,
+                  "value": "submenu1",
+                },
+                Object {
+                  "text": <div>
+                    SUB-MENU 2
+          </div>,
+                  "value": "submenu2",
+                },
+              ],
+              "text": <div>
+                bb
+          </div>,
+              "value": "bb",
+            },
+            Object {
+              "href": "#cc",
+              "text": <div>
+                cc
+          </div>,
+              "value": Object {
+                "cc": 1,
+              },
+            },
+          ]
+        }
+        onClick={[Function]}
+        toggleSubMenu={[Function]}
+      >
+        <div
+          className="tabs"
+        >
+          <div
+            className="left-pane"
+          />
+          <ul
+            className="nav-pane nav"
+          >
+            <DropTarget(DragSource(TabLabel))
+              activeTab="bb"
+              index={0}
+              item={
+                Object {
+                  "text": <div>
+                    aa
+                </div>,
+                  "value": "aa",
+                }
+              }
+              onClick={[Function]}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="bb"
+                connectDropTarget={[Function]}
+                index={0}
+                isOver={false}
+                item={
+                  Object {
+                    "text": <div>
+                      aa
+                  </div>,
+                    "value": "aa",
+                  }
+                }
+                onClick={[Function]}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="bb"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={0}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "text": <div>
+                        aa
+                    </div>,
+                      "value": "aa",
+                    }
+                  }
+                  onClick={[Function]}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        aa
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="bb"
+              index={1}
+              item={
+                Object {
+                  "href": "#bb",
+                  "subMenu": Array [
+                    Object {
+                      "text": <div>
+                        SUB-MENU 1
+                </div>,
+                      "value": "submenu1",
+                    },
+                    Object {
+                      "text": <div>
+                        SUB-MENU 2
+                </div>,
+                      "value": "submenu2",
+                    },
+                  ],
+                  "text": <div>
+                    bb
+                </div>,
+                  "value": "bb",
+                }
+              }
+              onClick={null}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="bb"
+                connectDropTarget={[Function]}
+                index={1}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#bb",
+                    "subMenu": Array [
+                      Object {
+                        "text": <div>
+                          SUB-MENU 1
+                  </div>,
+                        "value": "submenu1",
+                      },
+                      Object {
+                        "text": <div>
+                          SUB-MENU 2
+                  </div>,
+                        "value": "submenu2",
+                      },
+                    ],
+                    "text": <div>
+                      bb
+                  </div>,
+                    "value": "bb",
+                  }
+                }
+                onClick={null}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="bb"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={1}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#bb",
+                      "subMenu": Array [
+                        Object {
+                          "text": <div>
+                            SUB-MENU 1
+                    </div>,
+                          "value": "submenu1",
+                        },
+                        Object {
+                          "text": <div>
+                            SUB-MENU 2
+                    </div>,
+                          "value": "submenu2",
+                        },
+                      ],
+                      "text": <div>
+                        bb
+                    </div>,
+                      "value": "bb",
+                    }
+                  }
+                  onClick={null}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className="active"
+                  >
+                    <button
+                      href="#bb"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        bb
+                      </div>
+                    </button>
+                    <SubMenu
+                      menu={
+                        Array [
+                          Object {
+                            "text": <div>
+                              SUB-MENU 1
+                        </div>,
+                            "value": "submenu1",
+                          },
+                          Object {
+                            "text": <div>
+                              SUB-MENU 2
+                        </div>,
+                            "value": "submenu2",
+                          },
+                        ]
+                      }
+                      toggleSubMenu={[Function]}
+                    >
+                      <div
+                        className="submenu"
+                      >
+                        <a
+                          className="fa fa-angle-down"
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </SubMenu>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+            <DropTarget(DragSource(TabLabel))
+              activeTab="bb"
+              index={2}
+              item={
+                Object {
+                  "href": "#cc",
+                  "text": <div>
+                    cc
+                </div>,
+                  "value": Object {
+                    "cc": 1,
+                  },
+                }
+              }
+              onClick={[Function]}
+              toggleSubMenu={[Function]}
+            >
+              <DragSource(TabLabel)
+                activeTab="bb"
+                connectDropTarget={[Function]}
+                index={2}
+                isOver={false}
+                item={
+                  Object {
+                    "href": "#cc",
+                    "text": <div>
+                      cc
+                  </div>,
+                    "value": Object {
+                      "cc": 1,
+                    },
+                  }
+                }
+                onClick={[Function]}
+                toggleSubMenu={[Function]}
+              >
+                <TabLabel
+                  activeTab="bb"
+                  connectDragSource={[Function]}
+                  connectDropTarget={[Function]}
+                  index={2}
+                  isDragging={false}
+                  isOver={false}
+                  item={
+                    Object {
+                      "href": "#cc",
+                      "text": <div>
+                        cc
+                    </div>,
+                      "value": Object {
+                        "cc": 1,
+                      },
+                    }
+                  }
+                  onClick={[Function]}
+                  toggleSubMenu={[Function]}
+                >
+                  <li
+                    className=""
+                  >
+                    <button
+                      href="#cc"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        cc
+                      </div>
+                    </button>
+                  </li>
+                </TabLabel>
+              </DragSource(TabLabel)>
+            </DropTarget(DragSource(TabLabel))>
+          </ul>
+          <div
+            className="right-pane"
+          />
+        </div>
+      </NavTabs>
+    </DragDropContext(NavTabs)>
+    <TabContent
+      activeTab="bb"
+      bsClass="tab-content"
+      items={
+        Array [
+          Object {
+            "text": <div>
+              aa
+        </div>,
+            "value": "aa",
+          },
+          Object {
+            "href": "#bb",
+            "subMenu": Array [
+              Object {
+                "text": <div>
+                  SUB-MENU 1
+        </div>,
+                "value": "submenu1",
+              },
+              Object {
+                "text": <div>
+                  SUB-MENU 2
+        </div>,
+                "value": "submenu2",
+              },
+            ],
+            "text": <div>
+              bb
+        </div>,
+            "value": "bb",
+          },
+          Object {
+            "href": "#cc",
+            "text": <div>
+              cc
+        </div>,
+            "value": Object {
+              "cc": 1,
+            },
+          },
+        ]
+      }
+    >
+      <div
+        className="tab-content"
+      >
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab aa
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={true}
+          bsClass="tab-pane"
+        >
+          <div
+            className="active tab-pane"
+          >
+            <div>
+              tab bb
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel
+          active={false}
+          bsClass="tab-pane"
+        >
+          <div
+            className="tab-pane"
+          >
+            <div>
+              tab cc
+            </div>
+          </div>
+        </TabPanel>
+      </div>
+    </TabContent>
+  </div>
+</Tabbable>
+`;
+
+exports[`Tabbable without tabs render correctly without tabs 1`] = `
+<Tabbable
+  activeTab="bb"
+  bsClass="tabbable"
+  cover={false}
+  items={Array []}
+  menuTopOffset={0}
+>
+  <div
+    className="tabbable"
+  >
+    <DragDropContext(NavTabs)
+      activeTab={null}
+      cover={false}
+      items={Array []}
+      toggleSubMenu={[Function]}
+    >
+      <NavTabs
+        activeTab={null}
+        bsClass="nav"
+        cover={false}
+        items={Array []}
+        toggleSubMenu={[Function]}
+      >
+        <div
+          className="tabs"
+        >
+          <div
+            className="left-pane"
+          />
+          <ul
+            className="nav-pane nav"
+          />
+          <div
+            className="right-pane"
+          />
+        </div>
+      </NavTabs>
+    </DragDropContext(NavTabs)>
+    <TabContent
+      activeTab={null}
+      bsClass="tab-content"
+      items={Array []}
+    >
+      <div
+        className="tab-content"
+      />
+    </TabContent>
+  </div>
+</Tabbable>
+`;

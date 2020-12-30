@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormPanel render FormPanel default 1`] = `
+<FormPanel
+  bsClass="form"
+  bsStyle="horizontal"
+  itemsConfig={
+    Object {
+      "standalone": false,
+    }
+  }
+>
+  <form
+    className="form form-horizontal"
+  >
+    <DummyComp
+      standalone={false}
+    >
+      <span>
+        test
+      </span>
+    </DummyComp>
+  </form>
+</FormPanel>
+`;
+
+exports[`FormPanel render FormPanel without itemsConfig 1`] = `
+<FormPanel
+  bsClass="form"
+  bsStyle="horizontal"
+  itemsConfig={null}
+>
+  <form
+    className="form form-horizontal"
+  >
+    <span>
+      test
+    </span>
+  </form>
+</FormPanel>
+`;
+
+exports[`FormPanel renderFormPanel with custom itemsConfig 1`] = `
+<FormPanel
+  bsClass="form"
+  bsStyle="horizontal"
+  itemsConfig={
+    Object {
+      "a": 1,
+      "b": "b",
+      "c": true,
+    }
+  }
+>
+  <form
+    className="form form-horizontal"
+  >
+    <DummyComp
+      a={1}
+      b="b"
+      c={true}
+    >
+      <span>
+        test
+      </span>
+    </DummyComp>
+  </form>
+</FormPanel>
+`;

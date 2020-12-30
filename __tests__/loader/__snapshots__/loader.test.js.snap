@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Children Elmnt should render corrently 1`] = `
+<Loader
+  bsClass="tm-loader"
+  bsSize="sm"
+>
+  <span
+    className="loader"
+  >
+    <span
+      className="tm-loader tm-loader-sm"
+    />
+    <span
+      className="loader-content"
+    >
+      <p>
+        Loading...
+      </p>
+    </span>
+  </span>
+</Loader>
+`;
+
+exports[`Loader Default Loader should render corrently 1`] = `
+<Loader
+  bsClass="tm-loader"
+  bsSize="sm"
+>
+  <span
+    className="loader"
+  >
+    <span
+      className="tm-loader tm-loader-sm"
+    />
+  </span>
+</Loader>
+`;
+
+exports[`Loader Loader Text should render corrently 1`] = `
+<Loader
+  bsClass="tm-loader"
+  bsSize="sm"
+  loaderText="Loading"
+>
+  <span
+    className="loader"
+  >
+    <span
+      className="tm-loader tm-loader-sm"
+    />
+    <span
+      className="loader-content"
+    >
+      Loading
+    </span>
+  </span>
+</Loader>
+`;

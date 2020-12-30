@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductLogo render productLogo correctly 1`] = `
+<ProductLogo
+  bsClass="ddd"
+  bsStyle="header"
+>
+  <header
+    className=""
+  >
+    <h4
+      className="ddd-logo"
+    />
+  </header>
+</ProductLogo>
+`;

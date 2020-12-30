@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateTimeRangePicker should render correctly. 1`] = `
+<div
+  className="rcb-datetime-range-picker"
+>
+  <div
+    className="from"
+  >
+    <DateTimePicker
+      backLabel={
+        <TmIcon
+          name="calendar"
+          prefix="tmicon"
+          tag="span"
+        />
+      }
+      closeOnSelect={false}
+      closeOnTab={false}
+      columnOfMonth={3}
+      dateFormat="YYYY-MM-DD"
+      disabled={false}
+      entryLabel={
+        <TmIcon
+          name="clock"
+          prefix="tmicon"
+          tag="span"
+        />
+      }
+      fullMonthLabel={true}
+      inputLabel="From"
+      inputProps={Object {}}
+      isValidDate={[Function]}
+      minTimeGap={1}
+      onChange={[Function]}
+      open={true}
+      renderDay={[Function]}
+      timeFormat="HH:mm:ss"
+      timeGapUnit="s"
+      timeToggleLabelDown={
+        <TmIcon
+          name="chevron-down"
+          prefix="tmicon"
+          tag="span"
+        />
+      }
+      timeToggleLabelUp={
+        <TmIcon
+          name="chevron-up"
+          prefix="tmicon"
+          tag="span"
+        />
+      }
+      value="2018-10-11 10:10:10"
+      viewMode="days"
+      weekDayDisplayMode="short"
+    />
+  </div>
+  <div
+    className="to"
+  >
+    <DateTimePicker
+      backLabel={
+        <TmIcon
+          name="calendar"
+          prefix="tmicon"
+          tag="span"
+        />
+      }
+      closeOnSelect={false}
+      closeOnTab={false}
+      columnOfMonth={3}
+      dateFormat="YYYY-MM-DD"
+      disabled={false}
+      entryLabel={
+        <TmIcon
+          name="clock"
+          prefix="tmicon"
+          tag="span"
+        />
+      }
+      fullMonthLabel={true}
+      inputLabel="To"
+      inputProps={Object {}}
+      isValidDate={[Function]}
+      minTimeGap={1}
+      onChange={[Function]}
+      open={true}
+      renderDay={[Function]}
+      timeFormat="HH:mm:ss"
+      timeGapUnit="s"
+      timeToggleLabelDown={
+        <TmIcon
+          name="chevron-down"
+          prefix="tmicon"
+          tag="span"
+        />
+      }
+      timeToggleLabelUp={
+        <TmIcon
+          name="chevron-up"
+          prefix="tmicon"
+          tag="span"
+        />
+      }
+      value="2018-10-13 10:10:10"
+      viewMode="days"
+      weekDayDisplayMode="short"
+    />
+  </div>
+</div>
+`;

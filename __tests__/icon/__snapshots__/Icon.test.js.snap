@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon render Icon correctly 1`] = `
+<Icon
+  src="ddd.jpg"
+>
+  <img
+    className="tm-button-icon"
+    src="ddd.jpg"
+  />
+</Icon>
+`;

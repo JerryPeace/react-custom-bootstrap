@@ -1,0 +1,434 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdwon with subMenu at left side should render correctly. 1`] = `
+<Dropdown
+  bsClass="dropdown"
+  container="div"
+  isMenuOpen={true}
+  isSideMenuOpen={true}
+  isSideMenuOpenLeft={true}
+  menu={
+    <Menu
+      bsClass="dropdown-menu"
+      isMenuAlignRight={false}
+      isMenuCheckStyle={false}
+      isMenuOpen={false}
+      isSubMenuOpenLeft={false}
+      noRootClose={false}
+    >
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+      >
+        1
+      </MenuItem>
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+      >
+        2
+      </MenuItem>
+    </Menu>
+  }
+  sideMenu={
+    <div>
+      side menu element
+    </div>
+  }
+  toggle="Test"
+>
+  <div
+    className="dropdown btn-group open"
+  >
+    Test
+    <RootCloseWrapper
+      disabled={false}
+      event="click"
+    >
+      <div
+        style={
+          Object {
+            "border": "1px solid #bbb",
+            "boxShadow": "0 2px 4px rgba(0, 0, 0, .3)",
+            "display": "table",
+            "left": "auto",
+            "marginTop": -1,
+            "position": "absolute",
+            "right": 0,
+            "top": "100%",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "background": "#fff",
+              "borderLeft": "none",
+              "borderRight": "1px solid #ddd",
+              "display": "table-cell",
+              "padding": 12,
+              "verticalAlign": "top",
+            }
+          }
+        >
+          <div>
+            side menu element
+          </div>
+        </div>
+        <Menu
+          bsClass="dropdown-menu"
+          isMenuAlignRight={false}
+          isMenuCheckStyle={false}
+          isMenuOpen={true}
+          isSubMenuOpenLeft={false}
+          noRootClose={false}
+          sideMenu={
+            <div>
+              side menu element
+            </div>
+          }
+        >
+          <ul
+            className="dropdown-menu"
+            style={
+              Object {
+                "border": "none",
+                "boxShadow": "none",
+                "display": "table-cell",
+                "float": "none",
+                "height": "100%",
+                "margin": 0,
+                "padding": 0,
+                "position": "relative",
+                "top": 0,
+                "verticalAlign": "top",
+              }
+            }
+          >
+            <MenuItem
+              deselectable={false}
+              disabled={false}
+              divider={false}
+              header={false}
+              href=""
+              noRootClose={false}
+            >
+              <li
+                className=""
+                style={null}
+              >
+                <a
+                  href=""
+                  onClick={[Function]}
+                >
+                  1
+                </a>
+              </li>
+            </MenuItem>
+            <MenuItem
+              deselectable={false}
+              disabled={false}
+              divider={false}
+              header={false}
+              href=""
+              noRootClose={false}
+            >
+              <li
+                className=""
+                style={null}
+              >
+                <a
+                  href=""
+                  onClick={[Function]}
+                >
+                  2
+                </a>
+              </li>
+            </MenuItem>
+          </ul>
+        </Menu>
+      </div>
+    </RootCloseWrapper>
+  </div>
+</Dropdown>
+`;
+
+exports[`Dropdwon with subMenu should render correctly. 1`] = `
+<Dropdown
+  bsClass="dropdown"
+  container="div"
+  isMenuOpen={false}
+  isSideMenuOpen={false}
+  isSideMenuOpenLeft={false}
+  menu={
+    <Menu
+      bsClass="dropdown-menu"
+      isMenuAlignRight={false}
+      isMenuCheckStyle={false}
+      isMenuOpen={false}
+      isSubMenuOpenLeft={false}
+      noRootClose={false}
+    >
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+      >
+        1
+      </MenuItem>
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+      >
+        2
+      </MenuItem>
+    </Menu>
+  }
+  sideMenu={
+    <div>
+      side menu element
+    </div>
+  }
+  toggle="Test"
+>
+  <div
+    className="dropdown btn-group"
+  >
+    Test
+    <RootCloseWrapper
+      disabled={true}
+      event="click"
+    >
+      <div
+        style={
+          Object {
+            "border": "1px solid #bbb",
+            "boxShadow": "0 2px 4px rgba(0, 0, 0, .3)",
+            "display": "none",
+            "left": 0,
+            "marginTop": -1,
+            "position": "absolute",
+            "right": "auto",
+            "top": "100%",
+          }
+        }
+      >
+        <Menu
+          bsClass="dropdown-menu"
+          isMenuAlignRight={false}
+          isMenuCheckStyle={false}
+          isMenuOpen={false}
+          isSubMenuOpenLeft={false}
+          noRootClose={false}
+          sideMenu={
+            <div>
+              side menu element
+            </div>
+          }
+        >
+          <ul
+            className="dropdown-menu"
+            style={
+              Object {
+                "border": "none",
+                "boxShadow": "none",
+                "display": "none",
+                "float": "none",
+                "height": "100%",
+                "margin": 0,
+                "padding": 0,
+                "position": "relative",
+                "top": 0,
+                "verticalAlign": "top",
+              }
+            }
+          >
+            <MenuItem
+              deselectable={false}
+              disabled={false}
+              divider={false}
+              header={false}
+              href=""
+              noRootClose={false}
+            >
+              <li
+                className=""
+                style={null}
+              >
+                <a
+                  href=""
+                  onClick={[Function]}
+                >
+                  1
+                </a>
+              </li>
+            </MenuItem>
+            <MenuItem
+              deselectable={false}
+              disabled={false}
+              divider={false}
+              header={false}
+              href=""
+              noRootClose={false}
+            >
+              <li
+                className=""
+                style={null}
+              >
+                <a
+                  href=""
+                  onClick={[Function]}
+                >
+                  2
+                </a>
+              </li>
+            </MenuItem>
+          </ul>
+        </Menu>
+        <div
+          style={
+            Object {
+              "background": "#fff",
+              "borderLeft": "1px solid #ddd",
+              "borderRight": "none",
+              "display": "none",
+              "padding": 12,
+              "verticalAlign": "top",
+            }
+          }
+        >
+          <div>
+            side menu element
+          </div>
+        </div>
+      </div>
+    </RootCloseWrapper>
+  </div>
+</Dropdown>
+`;
+
+exports[`Dropdwon without subMenu should render correctly. 1`] = `
+<Dropdown
+  bsClass="dropdown"
+  container="div"
+  isMenuOpen={false}
+  isSideMenuOpen={false}
+  isSideMenuOpenLeft={false}
+  menu={
+    <Menu
+      bsClass="dropdown-menu"
+      isMenuAlignRight={false}
+      isMenuCheckStyle={false}
+      isMenuOpen={false}
+      isSubMenuOpenLeft={false}
+      noRootClose={false}
+    >
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+      >
+        1
+      </MenuItem>
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+      >
+        2
+      </MenuItem>
+    </Menu>
+  }
+  toggle="Test"
+>
+  <div
+    className="dropdown btn-group"
+  >
+    Test
+    <Menu
+      bsClass="dropdown-menu"
+      isMenuAlignRight={false}
+      isMenuCheckStyle={false}
+      isMenuOpen={false}
+      isSubMenuOpenLeft={false}
+      noRootClose={false}
+    >
+      <RootCloseWrapper
+        disabled={true}
+        event="click"
+      >
+        <ul
+          className="dropdown-menu"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <MenuItem
+            deselectable={false}
+            disabled={false}
+            divider={false}
+            header={false}
+            href=""
+            noRootClose={false}
+          >
+            <li
+              className=""
+              style={null}
+            >
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                1
+              </a>
+            </li>
+          </MenuItem>
+          <MenuItem
+            deselectable={false}
+            disabled={false}
+            divider={false}
+            header={false}
+            href=""
+            noRootClose={false}
+          >
+            <li
+              className=""
+              style={null}
+            >
+              <a
+                href=""
+                onClick={[Function]}
+              >
+                2
+              </a>
+            </li>
+          </MenuItem>
+        </ul>
+      </RootCloseWrapper>
+    </Menu>
+  </div>
+</Dropdown>
+`;

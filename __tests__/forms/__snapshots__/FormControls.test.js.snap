@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormControls render form controls correctly 1`] = `
+<FormControls
+  bsClass="controls"
+>
+  <div
+    className="controls"
+  >
+    <div>
+      test
+    </div>
+  </div>
+</FormControls>
+`;

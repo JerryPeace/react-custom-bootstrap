@@ -1,0 +1,1792 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LayoutHelper should disable helptext with given displayHelpText false 1`] = `
+<Textfield
+  bsClass="input"
+  delayValidateTime={500}
+  disabled={false}
+  displayHelpText={false}
+  helpText=""
+  helpTextClassName="has-error"
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  labelText="test"
+  multiline={false}
+  standalone={true}
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        disabled={false}
+        displayHelpText={false}
+        onChange={[Function]}
+        type="text"
+      />
+    }
+    bsClass="input"
+    delayValidateTime={500}
+    disabled={false}
+    displayHelpText={false}
+    getInputEl={[Function]}
+    helpText={null}
+    helpTextClassName="has-error"
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    labelText="test"
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={true}
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <Label
+        FieldBase={
+          <input
+            className=""
+            disabled={false}
+            displayHelpText={false}
+            onChange={[Function]}
+            type="text"
+          />
+        }
+        className="col-xs-2"
+        delayValidateTime={500}
+        displayHelpText={false}
+        getInputEl={[Function]}
+        helpText={null}
+        helpTextClassName="has-error"
+        inline={false}
+        inputType="text"
+        labelAlign="left"
+        multiline={false}
+        text="test"
+        validator={[Function]}
+        wrapperClassName="col-xs-10"
+      >
+        <label
+          className="col-xs-2"
+        >
+          test
+        </label>
+      </Label>
+      <input
+        className="form-control"
+        disabled={false}
+        displayHelpText={false}
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+  </LayoutHelper>
+</Textfield>
+`;
+
+exports[`LayoutHelper should render Checkbox correctly 1`] = `
+<Checkbox
+  bsClass="checkbox"
+  inline={false}
+  inputType="checkbox"
+  labelAlign="right"
+  labelText="test"
+  standalone={false}
+  wrapperClassName="col-xs-offset-2 col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        onChange={[Function]}
+        type="checkbox"
+      />
+    }
+    bsClass="checkbox"
+    checked={false}
+    inline={false}
+    inputType="checkbox"
+    labelAlign="right"
+    labelText="test"
+    singleCheckboxRadio={false}
+    standalone={false}
+    wrapperClassName="col-xs-offset-2 col-xs-10"
+  >
+    <FormGroup
+      className=""
+    >
+      <div
+        className="form-group"
+      >
+        <div
+          className="col-xs-offset-2 col-xs-10"
+        >
+          <div
+            className="checkbox"
+          >
+            <Label
+              FieldBase={
+                <input
+                  className=""
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              }
+              className="checkbox-radio-label checkbox-wrapper"
+              inline={false}
+              inputType="checkbox"
+              labelAlign="right"
+              text="test"
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <label
+                className="checkbox-radio-label checkbox-wrapper"
+              >
+                <input
+                  className=""
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                test
+              </label>
+            </Label>
+          </div>
+        </div>
+      </div>
+    </FormGroup>
+  </LayoutHelper>
+</Checkbox>
+`;
+
+exports[`LayoutHelper should render Checkbox correctly 2`] = `
+<Checkbox
+  bsClass="checkbox"
+  inline={false}
+  inputType="checkbox"
+  labelAlign="right"
+  labelText="test"
+  standalone={true}
+  wrapperClassName="col-xs-offset-2 col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        onChange={[Function]}
+        type="checkbox"
+      />
+    }
+    bsClass="checkbox"
+    checked={false}
+    inline={false}
+    inputType="checkbox"
+    labelAlign="right"
+    labelText="test"
+    singleCheckboxRadio={false}
+    standalone={true}
+    wrapperClassName="col-xs-offset-2 col-xs-10"
+  >
+    <div
+      className="checkbox"
+    >
+      <Label
+        FieldBase={
+          <input
+            className=""
+            onChange={[Function]}
+            type="checkbox"
+          />
+        }
+        className="checkbox-radio-label checkbox-wrapper"
+        inline={false}
+        inputType="checkbox"
+        labelAlign="right"
+        text="test"
+        wrapperClassName="col-xs-offset-2 col-xs-10"
+      >
+        <label
+          className="checkbox-radio-label checkbox-wrapper"
+        >
+          <input
+            className=""
+            onChange={[Function]}
+            type="checkbox"
+          />
+          test
+        </label>
+      </Label>
+    </div>
+  </LayoutHelper>
+</Checkbox>
+`;
+
+exports[`LayoutHelper should render Radio correctly 1`] = `
+<Radio
+  bsClass="radio"
+  inline={false}
+  inputType="radio"
+  labelAlign="right"
+  labelText="test"
+  standalone={false}
+  wrapperClassName="col-xs-offset-2 col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        onChange={[Function]}
+        type="radio"
+      />
+    }
+    bsClass="radio"
+    checked={false}
+    inline={false}
+    inputType="radio"
+    labelAlign="right"
+    labelText="test"
+    singleCheckboxRadio={false}
+    standalone={false}
+    wrapperClassName="col-xs-offset-2 col-xs-10"
+  >
+    <FormGroup
+      className=""
+    >
+      <div
+        className="form-group"
+      >
+        <div
+          className="col-xs-offset-2 col-xs-10"
+        >
+          <div
+            className="radio"
+          >
+            <Label
+              FieldBase={
+                <input
+                  onChange={[Function]}
+                  type="radio"
+                />
+              }
+              className="checkbox-radio-label radio-wrapper"
+              inline={false}
+              inputType="radio"
+              labelAlign="right"
+              text="test"
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <label
+                className="checkbox-radio-label radio-wrapper"
+              >
+                <input
+                  onChange={[Function]}
+                  type="radio"
+                />
+                test
+              </label>
+            </Label>
+          </div>
+        </div>
+      </div>
+    </FormGroup>
+  </LayoutHelper>
+</Radio>
+`;
+
+exports[`LayoutHelper should render Radio correctly 2`] = `
+<Radio
+  bsClass="radio"
+  inline={false}
+  inputType="radio"
+  labelAlign="right"
+  labelText="test"
+  standalone={true}
+  wrapperClassName="col-xs-offset-2 col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        onChange={[Function]}
+        type="radio"
+      />
+    }
+    bsClass="radio"
+    checked={false}
+    inline={false}
+    inputType="radio"
+    labelAlign="right"
+    labelText="test"
+    singleCheckboxRadio={false}
+    standalone={true}
+    wrapperClassName="col-xs-offset-2 col-xs-10"
+  >
+    <div
+      className="radio"
+    >
+      <Label
+        FieldBase={
+          <input
+            onChange={[Function]}
+            type="radio"
+          />
+        }
+        className="checkbox-radio-label radio-wrapper"
+        inline={false}
+        inputType="radio"
+        labelAlign="right"
+        text="test"
+        wrapperClassName="col-xs-offset-2 col-xs-10"
+      >
+        <label
+          className="checkbox-radio-label radio-wrapper"
+        >
+          <input
+            onChange={[Function]}
+            type="radio"
+          />
+          test
+        </label>
+      </Label>
+    </div>
+  </LayoutHelper>
+</Radio>
+`;
+
+exports[`LayoutHelper should render checkbox/radio group with standalone correctly 1`] = `
+<RadioGroup
+  bsClass="radio-group"
+  inline={false}
+  items={
+    Array [
+      Object {
+        "labelText": "radio group 1-1",
+        "name": "radioGroup",
+        "value": "opt1",
+      },
+      Object {
+        "labelText": "radio group 1-2",
+        "name": "radioGroup",
+        "value": "opt2",
+      },
+      Object {
+        "labelText": "radio group 1-3",
+        "name": "radioGroup",
+        "value": "opt3",
+      },
+    ]
+  }
+  labelAlign="right"
+  standalone={true}
+>
+  <LayoutHelper
+    FieldBase={
+      Array [
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="radio group 1-1"
+          name="radioGroup"
+          onChange={undefined}
+          standalone={true}
+          value="opt1"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="radio group 1-2"
+          name="radioGroup"
+          onChange={undefined}
+          standalone={true}
+          value="opt2"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="radio group 1-3"
+          name="radioGroup"
+          onChange={undefined}
+          standalone={true}
+          value="opt3"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+      ]
+    }
+    bsClass="radio-group"
+    inline={false}
+    items={
+      Array [
+        Object {
+          "labelText": "radio group 1-1",
+          "name": "radioGroup",
+          "value": "opt1",
+        },
+        Object {
+          "labelText": "radio group 1-2",
+          "name": "radioGroup",
+          "value": "opt2",
+        },
+        Object {
+          "labelText": "radio group 1-3",
+          "name": "radioGroup",
+          "value": "opt3",
+        },
+      ]
+    }
+    labelAlign="right"
+    singleCheckboxRadio={false}
+    standalone={true}
+    wrapperClassName="col-xs-10 col-xs-offset-2"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="radio-group"
+      >
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="radio group 1-1"
+          name="radioGroup"
+          standalone={true}
+          value="opt1"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+        >
+          <LayoutHelper
+            FieldBase={
+              <input
+                checked={false}
+                name="radioGroup"
+                onChange={[Function]}
+                type="radio"
+                value="opt1"
+              />
+            }
+            bsClass="radio"
+            checked={false}
+            inline={false}
+            inputType="radio"
+            labelAlign="right"
+            labelText="radio group 1-1"
+            name="radioGroup"
+            singleCheckboxRadio={false}
+            standalone={true}
+            value="opt1"
+            wrapperClassName="col-xs-offset-2 col-xs-10"
+          >
+            <div
+              className="radio"
+            >
+              <Label
+                FieldBase={
+                  <input
+                    checked={false}
+                    name="radioGroup"
+                    onChange={[Function]}
+                    type="radio"
+                    value="opt1"
+                  />
+                }
+                className="checkbox-radio-label radio-wrapper"
+                inline={false}
+                inputType="radio"
+                labelAlign="right"
+                name="radioGroup"
+                text="radio group 1-1"
+                value="opt1"
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <label
+                  className="checkbox-radio-label radio-wrapper"
+                >
+                  <input
+                    checked={false}
+                    name="radioGroup"
+                    onChange={[Function]}
+                    type="radio"
+                    value="opt1"
+                  />
+                  radio group 1-1
+                </label>
+              </Label>
+            </div>
+          </LayoutHelper>
+        </Radio>
+      </div>
+      <div
+        className="radio-group"
+      >
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="radio group 1-2"
+          name="radioGroup"
+          standalone={true}
+          value="opt2"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+        >
+          <LayoutHelper
+            FieldBase={
+              <input
+                checked={false}
+                name="radioGroup"
+                onChange={[Function]}
+                type="radio"
+                value="opt2"
+              />
+            }
+            bsClass="radio"
+            checked={false}
+            inline={false}
+            inputType="radio"
+            labelAlign="right"
+            labelText="radio group 1-2"
+            name="radioGroup"
+            singleCheckboxRadio={false}
+            standalone={true}
+            value="opt2"
+            wrapperClassName="col-xs-offset-2 col-xs-10"
+          >
+            <div
+              className="radio"
+            >
+              <Label
+                FieldBase={
+                  <input
+                    checked={false}
+                    name="radioGroup"
+                    onChange={[Function]}
+                    type="radio"
+                    value="opt2"
+                  />
+                }
+                className="checkbox-radio-label radio-wrapper"
+                inline={false}
+                inputType="radio"
+                labelAlign="right"
+                name="radioGroup"
+                text="radio group 1-2"
+                value="opt2"
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <label
+                  className="checkbox-radio-label radio-wrapper"
+                >
+                  <input
+                    checked={false}
+                    name="radioGroup"
+                    onChange={[Function]}
+                    type="radio"
+                    value="opt2"
+                  />
+                  radio group 1-2
+                </label>
+              </Label>
+            </div>
+          </LayoutHelper>
+        </Radio>
+      </div>
+      <div
+        className="radio-group"
+      >
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="radio group 1-3"
+          name="radioGroup"
+          standalone={true}
+          value="opt3"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+        >
+          <LayoutHelper
+            FieldBase={
+              <input
+                checked={false}
+                name="radioGroup"
+                onChange={[Function]}
+                type="radio"
+                value="opt3"
+              />
+            }
+            bsClass="radio"
+            checked={false}
+            inline={false}
+            inputType="radio"
+            labelAlign="right"
+            labelText="radio group 1-3"
+            name="radioGroup"
+            singleCheckboxRadio={false}
+            standalone={true}
+            value="opt3"
+            wrapperClassName="col-xs-offset-2 col-xs-10"
+          >
+            <div
+              className="radio"
+            >
+              <Label
+                FieldBase={
+                  <input
+                    checked={false}
+                    name="radioGroup"
+                    onChange={[Function]}
+                    type="radio"
+                    value="opt3"
+                  />
+                }
+                className="checkbox-radio-label radio-wrapper"
+                inline={false}
+                inputType="radio"
+                labelAlign="right"
+                name="radioGroup"
+                text="radio group 1-3"
+                value="opt3"
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <label
+                  className="checkbox-radio-label radio-wrapper"
+                >
+                  <input
+                    checked={false}
+                    name="radioGroup"
+                    onChange={[Function]}
+                    type="radio"
+                    value="opt3"
+                  />
+                  radio group 1-3
+                </label>
+              </Label>
+            </div>
+          </LayoutHelper>
+        </Radio>
+      </div>
+    </div>
+  </LayoutHelper>
+</RadioGroup>
+`;
+
+exports[`LayoutHelper should render checkbox/radio group with standalone correctly 2`] = `
+<CheckboxGroup
+  bsClass="checkbox-group"
+  helpTextClassName="has-error"
+  inline={false}
+  items={
+    Array [
+      Object {
+        "labelText": "Checkbox group 1-1",
+        "value": "ckboxgrp21",
+      },
+      Object {
+        "labelText": "Checkbox group 1-2",
+        "value": "ckboxgrp22",
+      },
+      Object {
+        "labelText": "Checkbox group 1-3",
+        "value": "ckboxgrp23",
+      },
+    ]
+  }
+  standalone={true}
+>
+  <LayoutHelper
+    FieldBase={
+      Array [
+        <Checkbox
+          bsClass="checkbox"
+          checked={undefined}
+          inline={false}
+          inputType="checkbox"
+          labelAlign="right"
+          labelText="Checkbox group 1-1"
+          name={undefined}
+          onChange={[Function]}
+          standalone={true}
+          value="ckboxgrp21"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Checkbox
+          bsClass="checkbox"
+          checked={undefined}
+          inline={false}
+          inputType="checkbox"
+          labelAlign="right"
+          labelText="Checkbox group 1-2"
+          name={undefined}
+          onChange={[Function]}
+          standalone={true}
+          value="ckboxgrp22"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Checkbox
+          bsClass="checkbox"
+          checked={undefined}
+          inline={false}
+          inputType="checkbox"
+          labelAlign="right"
+          labelText="Checkbox group 1-3"
+          name={undefined}
+          onChange={[Function]}
+          standalone={true}
+          value="ckboxgrp23"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+      ]
+    }
+    bsClass="checkbox-group"
+    helpText={null}
+    helpTextClassName="has-error"
+    inline={false}
+    items={
+      Array [
+        Object {
+          "labelText": "Checkbox group 1-1",
+          "value": "ckboxgrp21",
+        },
+        Object {
+          "labelText": "Checkbox group 1-2",
+          "value": "ckboxgrp22",
+        },
+        Object {
+          "labelText": "Checkbox group 1-3",
+          "value": "ckboxgrp23",
+        },
+      ]
+    }
+    singleCheckboxRadio={false}
+    standalone={true}
+    wrapperClassName="col-xs-10 col-xs-offset-2"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="checkbox-group"
+      >
+        <Checkbox
+          bsClass="checkbox"
+          inline={false}
+          inputType="checkbox"
+          labelAlign="right"
+          labelText="Checkbox group 1-1"
+          onChange={[Function]}
+          standalone={true}
+          value="ckboxgrp21"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+        >
+          <LayoutHelper
+            FieldBase={
+              <input
+                checked={undefined}
+                className=""
+                name={undefined}
+                onChange={[Function]}
+                type="checkbox"
+                value="ckboxgrp21"
+              />
+            }
+            bsClass="checkbox"
+            checked={false}
+            inline={false}
+            inputType="checkbox"
+            labelAlign="right"
+            labelText="Checkbox group 1-1"
+            onChange={[Function]}
+            singleCheckboxRadio={false}
+            standalone={true}
+            value="ckboxgrp21"
+            wrapperClassName="col-xs-offset-2 col-xs-10"
+          >
+            <div
+              className="checkbox"
+            >
+              <Label
+                FieldBase={
+                  <input
+                    checked={undefined}
+                    className=""
+                    name={undefined}
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="ckboxgrp21"
+                  />
+                }
+                className="checkbox-radio-label checkbox-wrapper"
+                inline={false}
+                inputType="checkbox"
+                labelAlign="right"
+                onChange={[Function]}
+                text="Checkbox group 1-1"
+                value="ckboxgrp21"
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <label
+                  className="checkbox-radio-label checkbox-wrapper"
+                >
+                  <input
+                    className=""
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="ckboxgrp21"
+                  />
+                  Checkbox group 1-1
+                </label>
+              </Label>
+            </div>
+          </LayoutHelper>
+        </Checkbox>
+      </div>
+      <div
+        className="checkbox-group"
+      >
+        <Checkbox
+          bsClass="checkbox"
+          inline={false}
+          inputType="checkbox"
+          labelAlign="right"
+          labelText="Checkbox group 1-2"
+          onChange={[Function]}
+          standalone={true}
+          value="ckboxgrp22"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+        >
+          <LayoutHelper
+            FieldBase={
+              <input
+                checked={undefined}
+                className=""
+                name={undefined}
+                onChange={[Function]}
+                type="checkbox"
+                value="ckboxgrp22"
+              />
+            }
+            bsClass="checkbox"
+            checked={false}
+            inline={false}
+            inputType="checkbox"
+            labelAlign="right"
+            labelText="Checkbox group 1-2"
+            onChange={[Function]}
+            singleCheckboxRadio={false}
+            standalone={true}
+            value="ckboxgrp22"
+            wrapperClassName="col-xs-offset-2 col-xs-10"
+          >
+            <div
+              className="checkbox"
+            >
+              <Label
+                FieldBase={
+                  <input
+                    checked={undefined}
+                    className=""
+                    name={undefined}
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="ckboxgrp22"
+                  />
+                }
+                className="checkbox-radio-label checkbox-wrapper"
+                inline={false}
+                inputType="checkbox"
+                labelAlign="right"
+                onChange={[Function]}
+                text="Checkbox group 1-2"
+                value="ckboxgrp22"
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <label
+                  className="checkbox-radio-label checkbox-wrapper"
+                >
+                  <input
+                    className=""
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="ckboxgrp22"
+                  />
+                  Checkbox group 1-2
+                </label>
+              </Label>
+            </div>
+          </LayoutHelper>
+        </Checkbox>
+      </div>
+      <div
+        className="checkbox-group"
+      >
+        <Checkbox
+          bsClass="checkbox"
+          inline={false}
+          inputType="checkbox"
+          labelAlign="right"
+          labelText="Checkbox group 1-3"
+          onChange={[Function]}
+          standalone={true}
+          value="ckboxgrp23"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+        >
+          <LayoutHelper
+            FieldBase={
+              <input
+                checked={undefined}
+                className=""
+                name={undefined}
+                onChange={[Function]}
+                type="checkbox"
+                value="ckboxgrp23"
+              />
+            }
+            bsClass="checkbox"
+            checked={false}
+            inline={false}
+            inputType="checkbox"
+            labelAlign="right"
+            labelText="Checkbox group 1-3"
+            onChange={[Function]}
+            singleCheckboxRadio={false}
+            standalone={true}
+            value="ckboxgrp23"
+            wrapperClassName="col-xs-offset-2 col-xs-10"
+          >
+            <div
+              className="checkbox"
+            >
+              <Label
+                FieldBase={
+                  <input
+                    checked={undefined}
+                    className=""
+                    name={undefined}
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="ckboxgrp23"
+                  />
+                }
+                className="checkbox-radio-label checkbox-wrapper"
+                inline={false}
+                inputType="checkbox"
+                labelAlign="right"
+                onChange={[Function]}
+                text="Checkbox group 1-3"
+                value="ckboxgrp23"
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <label
+                  className="checkbox-radio-label checkbox-wrapper"
+                >
+                  <input
+                    className=""
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="ckboxgrp23"
+                  />
+                  Checkbox group 1-3
+                </label>
+              </Label>
+            </div>
+          </LayoutHelper>
+        </Checkbox>
+      </div>
+    </div>
+  </LayoutHelper>
+</CheckboxGroup>
+`;
+
+exports[`LayoutHelper should render checkbox/radio group with standalone correctly 3`] = `
+<CheckboxGroup
+  bsClass="checkbox-group"
+  helpTextClassName="has-error"
+  inline={false}
+  items={
+    Array [
+      Object {
+        "labelText": "Checkbox group 1-1",
+        "value": "ckboxgrp21",
+      },
+      Object {
+        "labelText": "Checkbox group 1-2",
+        "value": "ckboxgrp22",
+      },
+      Object {
+        "labelText": "Checkbox group 1-3",
+        "value": "ckboxgrp23",
+      },
+    ]
+  }
+  standalone={false}
+>
+  <LayoutHelper
+    FieldBase={
+      Array [
+        <Checkbox
+          bsClass="checkbox"
+          checked={undefined}
+          inline={false}
+          inputType="checkbox"
+          labelAlign="right"
+          labelText="Checkbox group 1-1"
+          name={undefined}
+          onChange={[Function]}
+          standalone={true}
+          value="ckboxgrp21"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Checkbox
+          bsClass="checkbox"
+          checked={undefined}
+          inline={false}
+          inputType="checkbox"
+          labelAlign="right"
+          labelText="Checkbox group 1-2"
+          name={undefined}
+          onChange={[Function]}
+          standalone={true}
+          value="ckboxgrp22"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Checkbox
+          bsClass="checkbox"
+          checked={undefined}
+          inline={false}
+          inputType="checkbox"
+          labelAlign="right"
+          labelText="Checkbox group 1-3"
+          name={undefined}
+          onChange={[Function]}
+          standalone={true}
+          value="ckboxgrp23"
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+      ]
+    }
+    bsClass="checkbox-group"
+    helpText={null}
+    helpTextClassName="has-error"
+    inline={false}
+    items={
+      Array [
+        Object {
+          "labelText": "Checkbox group 1-1",
+          "value": "ckboxgrp21",
+        },
+        Object {
+          "labelText": "Checkbox group 1-2",
+          "value": "ckboxgrp22",
+        },
+        Object {
+          "labelText": "Checkbox group 1-3",
+          "value": "ckboxgrp23",
+        },
+      ]
+    }
+    singleCheckboxRadio={false}
+    standalone={false}
+    wrapperClassName="col-xs-10 col-xs-offset-2"
+  >
+    <FormGroup
+      className=""
+    >
+      <div
+        className="form-group"
+      >
+        <div
+          className="col-xs-10 col-xs-offset-2"
+        >
+          <div
+            className="checkbox-group"
+          >
+            <Checkbox
+              bsClass="checkbox"
+              inline={false}
+              inputType="checkbox"
+              labelAlign="right"
+              labelText="Checkbox group 1-1"
+              onChange={[Function]}
+              standalone={true}
+              value="ckboxgrp21"
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <LayoutHelper
+                FieldBase={
+                  <input
+                    checked={undefined}
+                    className=""
+                    name={undefined}
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="ckboxgrp21"
+                  />
+                }
+                bsClass="checkbox"
+                checked={false}
+                inline={false}
+                inputType="checkbox"
+                labelAlign="right"
+                labelText="Checkbox group 1-1"
+                onChange={[Function]}
+                singleCheckboxRadio={false}
+                standalone={true}
+                value="ckboxgrp21"
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <div
+                  className="checkbox"
+                >
+                  <Label
+                    FieldBase={
+                      <input
+                        checked={undefined}
+                        className=""
+                        name={undefined}
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="ckboxgrp21"
+                      />
+                    }
+                    className="checkbox-radio-label checkbox-wrapper"
+                    inline={false}
+                    inputType="checkbox"
+                    labelAlign="right"
+                    onChange={[Function]}
+                    text="Checkbox group 1-1"
+                    value="ckboxgrp21"
+                    wrapperClassName="col-xs-offset-2 col-xs-10"
+                  >
+                    <label
+                      className="checkbox-radio-label checkbox-wrapper"
+                    >
+                      <input
+                        className=""
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="ckboxgrp21"
+                      />
+                      Checkbox group 1-1
+                    </label>
+                  </Label>
+                </div>
+              </LayoutHelper>
+            </Checkbox>
+          </div>
+          <div
+            className="checkbox-group"
+          >
+            <Checkbox
+              bsClass="checkbox"
+              inline={false}
+              inputType="checkbox"
+              labelAlign="right"
+              labelText="Checkbox group 1-2"
+              onChange={[Function]}
+              standalone={true}
+              value="ckboxgrp22"
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <LayoutHelper
+                FieldBase={
+                  <input
+                    checked={undefined}
+                    className=""
+                    name={undefined}
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="ckboxgrp22"
+                  />
+                }
+                bsClass="checkbox"
+                checked={false}
+                inline={false}
+                inputType="checkbox"
+                labelAlign="right"
+                labelText="Checkbox group 1-2"
+                onChange={[Function]}
+                singleCheckboxRadio={false}
+                standalone={true}
+                value="ckboxgrp22"
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <div
+                  className="checkbox"
+                >
+                  <Label
+                    FieldBase={
+                      <input
+                        checked={undefined}
+                        className=""
+                        name={undefined}
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="ckboxgrp22"
+                      />
+                    }
+                    className="checkbox-radio-label checkbox-wrapper"
+                    inline={false}
+                    inputType="checkbox"
+                    labelAlign="right"
+                    onChange={[Function]}
+                    text="Checkbox group 1-2"
+                    value="ckboxgrp22"
+                    wrapperClassName="col-xs-offset-2 col-xs-10"
+                  >
+                    <label
+                      className="checkbox-radio-label checkbox-wrapper"
+                    >
+                      <input
+                        className=""
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="ckboxgrp22"
+                      />
+                      Checkbox group 1-2
+                    </label>
+                  </Label>
+                </div>
+              </LayoutHelper>
+            </Checkbox>
+          </div>
+          <div
+            className="checkbox-group"
+          >
+            <Checkbox
+              bsClass="checkbox"
+              inline={false}
+              inputType="checkbox"
+              labelAlign="right"
+              labelText="Checkbox group 1-3"
+              onChange={[Function]}
+              standalone={true}
+              value="ckboxgrp23"
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <LayoutHelper
+                FieldBase={
+                  <input
+                    checked={undefined}
+                    className=""
+                    name={undefined}
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="ckboxgrp23"
+                  />
+                }
+                bsClass="checkbox"
+                checked={false}
+                inline={false}
+                inputType="checkbox"
+                labelAlign="right"
+                labelText="Checkbox group 1-3"
+                onChange={[Function]}
+                singleCheckboxRadio={false}
+                standalone={true}
+                value="ckboxgrp23"
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <div
+                  className="checkbox"
+                >
+                  <Label
+                    FieldBase={
+                      <input
+                        checked={undefined}
+                        className=""
+                        name={undefined}
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="ckboxgrp23"
+                      />
+                    }
+                    className="checkbox-radio-label checkbox-wrapper"
+                    inline={false}
+                    inputType="checkbox"
+                    labelAlign="right"
+                    onChange={[Function]}
+                    text="Checkbox group 1-3"
+                    value="ckboxgrp23"
+                    wrapperClassName="col-xs-offset-2 col-xs-10"
+                  >
+                    <label
+                      className="checkbox-radio-label checkbox-wrapper"
+                    >
+                      <input
+                        className=""
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="ckboxgrp23"
+                      />
+                      Checkbox group 1-3
+                    </label>
+                  </Label>
+                </div>
+              </LayoutHelper>
+            </Checkbox>
+          </div>
+        </div>
+      </div>
+    </FormGroup>
+  </LayoutHelper>
+</CheckboxGroup>
+`;
+
+exports[`LayoutHelper should render customize helptext component 1`] = `
+<Textfield
+  bsClass="input"
+  delayValidateTime={500}
+  disabled={false}
+  helpText=""
+  helpTextClassName="has-error"
+  helpTextComponent={
+    <div>
+      this is error
+    </div>
+  }
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  labelText="test"
+  multiline={false}
+  standalone={true}
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        disabled={false}
+        helpTextComponent={
+          <div>
+            this is error
+          </div>
+        }
+        onChange={[Function]}
+        type="text"
+      />
+    }
+    bsClass="input"
+    delayValidateTime={500}
+    disabled={false}
+    getInputEl={[Function]}
+    helpText={null}
+    helpTextClassName="has-error"
+    helpTextComponent={
+      <div>
+        this is error
+      </div>
+    }
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    labelText="test"
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={true}
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <Label
+        FieldBase={
+          <input
+            className=""
+            disabled={false}
+            helpTextComponent={
+              <div>
+                this is error
+              </div>
+            }
+            onChange={[Function]}
+            type="text"
+          />
+        }
+        className="col-xs-2"
+        delayValidateTime={500}
+        getInputEl={[Function]}
+        helpText={null}
+        helpTextClassName="has-error"
+        helpTextComponent={
+          <div>
+            this is error
+          </div>
+        }
+        inline={false}
+        inputType="text"
+        labelAlign="left"
+        multiline={false}
+        text="test"
+        validator={[Function]}
+        wrapperClassName="col-xs-10"
+      >
+        <label
+          className="col-xs-2"
+        >
+          test
+        </label>
+      </Label>
+      <input
+        className="form-control"
+        disabled={false}
+        helpTextComponent={
+          <div>
+            this is error
+          </div>
+        }
+        onChange={[Function]}
+        type="text"
+      />
+      <helpTextComponent />
+    </div>
+  </LayoutHelper>
+</Textfield>
+`;
+
+exports[`LayoutHelper should render react element label correctly 1`] = `
+<Textfield
+  bsClass="input"
+  delayValidateTime={500}
+  disabled={false}
+  helpText=""
+  helpTextClassName="has-error"
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  labelText={
+    <div>
+      test
+    </div>
+  }
+  multiline={false}
+  standalone={true}
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+    }
+    bsClass="input"
+    delayValidateTime={500}
+    disabled={false}
+    getInputEl={[Function]}
+    helpText={null}
+    helpTextClassName="has-error"
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    labelText={
+      <div>
+        test
+      </div>
+    }
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={true}
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <Label
+        FieldBase={
+          <input
+            className=""
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        }
+        className="col-xs-2"
+        delayValidateTime={500}
+        getInputEl={[Function]}
+        helpText={null}
+        helpTextClassName="has-error"
+        inline={false}
+        inputType="text"
+        labelAlign="left"
+        multiline={false}
+        text={
+          <div>
+            test
+          </div>
+        }
+        validator={[Function]}
+        wrapperClassName="col-xs-10"
+      >
+        <label
+          className="col-xs-2"
+        >
+          <div>
+            test
+          </div>
+        </label>
+      </Label>
+      <input
+        className="form-control"
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+  </LayoutHelper>
+</Textfield>
+`;
+
+exports[`LayoutHelper should render textField with standalone false correctly 1`] = `
+<Textfield
+  bsClass="input"
+  delayValidateTime={500}
+  disabled={false}
+  helpText=""
+  helpTextClassName="has-error"
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  labelText="test"
+  multiline={false}
+  standalone={false}
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        type="text"
+      />
+    }
+    bsClass="input"
+    delayValidateTime={500}
+    disabled={false}
+    getInputEl={[Function]}
+    helpText={null}
+    helpTextClassName="has-error"
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    labelText="test"
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={false}
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <FormGroup
+      className=""
+    >
+      <div
+        className="form-group"
+      >
+        <Label
+          FieldBase={
+            <input
+              className=""
+              disabled={false}
+              onChange={[Function]}
+              type="text"
+            />
+          }
+          className="control-label col-xs-2"
+          delayValidateTime={500}
+          getInputEl={[Function]}
+          helpText={null}
+          helpTextClassName="has-error"
+          inline={false}
+          inputType="text"
+          labelAlign="left"
+          multiline={false}
+          text="test"
+          validator={[Function]}
+          wrapperClassName="col-xs-10"
+        >
+          <label
+            className="control-label col-xs-2"
+          >
+            test
+          </label>
+        </Label>
+        <div
+          className="col-xs-10"
+        >
+          <input
+            className="form-control"
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </div>
+    </FormGroup>
+  </LayoutHelper>
+</Textfield>
+`;
+
+exports[`LayoutHelper should render tooltip props for textField 1`] = `
+<Textfield
+  bsClass="input"
+  delayValidateTime={500}
+  disabled={false}
+  helpText=""
+  helpTextClassName="has-error"
+  inputType="text"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  multiline={false}
+  standalone={true}
+  tooltipProps={
+    Object {
+      "mode": "popover",
+      "placement": "top-left",
+      "tooltipValue": "test",
+    }
+  }
+  validator={[Function]}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        tooltipProps={
+          Object {
+            "mode": "popover",
+            "placement": "top-left",
+            "tooltipValue": "test",
+          }
+        }
+        type="text"
+      />
+    }
+    bsClass="input"
+    delayValidateTime={500}
+    disabled={false}
+    getInputEl={[Function]}
+    helpText={null}
+    helpTextClassName="has-error"
+    inputType="text"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    multiline={false}
+    singleCheckboxRadio={false}
+    standalone={true}
+    tooltipProps={
+      Object {
+        "mode": "popover",
+        "placement": "top-left",
+        "tooltipValue": "test",
+      }
+    }
+    validator={[Function]}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <input
+        className="form-control"
+        disabled={false}
+        onChange={[Function]}
+        tooltipProps={
+          Object {
+            "mode": "popover",
+            "placement": "top-left",
+            "tooltipValue": "test",
+          }
+        }
+        type="text"
+      />
+      <Tooltip
+        arrowDirecton="center"
+        autoRender={true}
+        delayHide={500}
+        delayShow={500}
+        disableTooltip={false}
+        followCursor={true}
+        forceShow={false}
+        getTargetEl={[Function]}
+        ifWrapText={false}
+        mode="popover"
+        offsetTooltip={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        placement="top-left"
+        popoverTitle=""
+        tooltipMaxWidth={680}
+        tooltipStyle={Object {}}
+        tooltipValue="test"
+      >
+        <span
+          className="tm-tooltip-container"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            className="popover top-left"
+            style={
+              Object {
+                "display": "inline-block",
+                "left": -1000,
+                "maxWidth": "none",
+                "opacity": 0,
+                "position": "fixed",
+                "top": -1000,
+                "whiteSpace": "nowrap",
+                "width": "auto",
+                "wordWrap": "break-word",
+                "zIndex": 2000,
+              }
+            }
+          >
+            <div
+              className="arrow"
+            />
+            <div
+              className="popover-content"
+            >
+              test
+            </div>
+          </div>
+        </span>
+      </Tooltip>
+    </div>
+  </LayoutHelper>
+</Textfield>
+`;

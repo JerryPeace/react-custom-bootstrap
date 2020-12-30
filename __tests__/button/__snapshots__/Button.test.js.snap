@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button with button label 1`] = `
+<Button
+  active={false}
+  block={false}
+  bsClass="button"
+  bsStyle="default"
+  btnLabel="Test Label"
+  disabled={false}
+  faProps={Object {}}
+  isCaretStyle={false}
+  isDropdown={false}
+  isLoading={false}
+  standalone={true}
+  type="button"
+>
+  <button
+    btnLabel="Test Label"
+    className="btn btn-default"
+    disabled={false}
+    type="button"
+  >
+    <span
+      className="btn-content"
+    >
+      children
+    </span>
+  </button>
+</Button>
+`;
+
+exports[`Button with customize icon in <a> wrapper 1`] = `
+<Button
+  active={false}
+  block={false}
+  bsClass="button"
+  bsStyle="default"
+  buttonText="Click"
+  disabled={false}
+  faProps={Object {}}
+  iconEl="<span>icon</span>"
+  isCaretStyle={false}
+  isDropdown={false}
+  isLoading={false}
+  standalone={true}
+  target="_blank"
+  type="button"
+>
+  <a
+    className="btn btn-default"
+    href="#"
+    target="_blank"
+    type="button"
+  >
+    <span
+      className="btn-icon"
+    >
+      &lt;span&gt;icon&lt;/span&gt;
+    </span>
+    <span
+      className="btn-content"
+    >
+      Click
+      children
+    </span>
+  </a>
+</Button>
+`;
+
+exports[`Button with fa icon and caret style in <a> wrapper 1`] = `
+<Button
+  active={false}
+  block={false}
+  bsClass="button"
+  bsStyle="default"
+  buttonText="Click"
+  disabled={false}
+  faProps={Object {}}
+  faStyle="plus"
+  href="test.com"
+  isCaretStyle={true}
+  isDropdown={false}
+  isLoading={false}
+  standalone={true}
+  type="button"
+>
+  <a
+    className="btn btn-default"
+    href="test.com"
+    type="button"
+  >
+    <span
+      className="btn-icon"
+    >
+      <i
+        className="fa fa-plus"
+      />
+    </span>
+    <span
+      className="btn-content"
+    >
+      Click
+    </span>
+    <span
+      className="caret"
+    />
+  </a>
+</Button>
+`;
+
+exports[`Button with loading status in <div> wrapper 1`] = `
+<Button
+  active={false}
+  block={false}
+  bsClass="button"
+  bsStyle="default"
+  buttonText="Click"
+  componentClass="div"
+  disabled={false}
+  faProps={Object {}}
+  isCaretStyle={false}
+  isDropdown={false}
+  isLoading={true}
+  standalone={true}
+  type="button"
+>
+  <div
+    className="btn btn-default"
+    disabled={false}
+    type="button"
+  >
+    <span
+      className="btn-icon"
+    >
+      <Loader
+        bsClass="tm-loader"
+        bsSize="sm"
+      >
+        <span
+          className="loader"
+        >
+          <span
+            className="tm-loader tm-loader-sm"
+          />
+        </span>
+      </Loader>
+    </span>
+    <span
+      className="btn-content"
+    >
+      Click
+    </span>
+  </div>
+</Button>
+`;
+
+exports[`Button without children or buttonText 1`] = `
+<Button
+  active={false}
+  block={false}
+  bsClass="button"
+  bsStyle="default"
+  disabled={false}
+  faProps={Object {}}
+  isCaretStyle={false}
+  isDropdown={false}
+  isLoading={false}
+  standalone={true}
+  type="button"
+>
+  <button
+    className="btn btn-default"
+    disabled={false}
+    type="button"
+  />
+</Button>
+`;

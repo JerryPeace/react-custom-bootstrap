@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Glyphicon render glyphicon correctly 1`] = `
+<Glyphicon
+  ariaHidden={true}
+  bsClass="glyphicon"
+>
+  <span
+    aria-hidden={true}
+    className="glyphicon"
+  />
+</Glyphicon>
+`;

@@ -1,1 +1,97 @@
-test
+{
+  "name": "react-commercial-bootstrap",
+  "version": "0.4.32",
+  "main": "./dist",
+  "description": "Common React Components UI library",
+  "scripts": {
+    "dev-server": "webpack-dev-server --config webpack.config.js --devtool eval --progress --colors --inline --hot --host 0.0.0.0 --port 2993",
+    "start-dev": "babel-node ./server/server-development.js",
+    "start": "babel-node ./server/server-production.js",
+    "prepublish": "npm run build",
+    "build": "jest && webpack --config webpack.build.config.js",
+    "watch": "webpack --config webpack.config.js --progress --profile --colors -w",
+    "pack-demo-page": "rm -rf demo && mkdir demo && cp ./app/demo-index.html ./demo/index.html && webpack --config webpack.demo.config.js",
+    "clear-npm-cache": "rm -rf ~/.npm && npm cache clear",
+    "test": "jest --coverage",
+    "watch-test": "jest --coverage --watch",
+    "jest": "jest"
+  },
+  "dependencies": {
+    "ag-grid": "7.2.2",
+    "ag-grid-react": "7.2.0",
+    "classnames": "2.1.3",
+    "commercial-bootstrap": "1.2.8-dev",
+    "element-resize-event": "2.0.7-tm1",
+    "lodash": "4.17.2",
+    "natural-sort": "1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "0.14.9",
+    "react-datagrid": "2.2.0",
+    "react-datetime": "2.8.8-tm3",
+    "react-dnd": "2.3.0",
+    "react-dnd-html5-backend": "2.3.0",
+    "react-dom": "0.14.9",
+    "react-highlight-words": "0.11.0",
+    "react-select": "1.0.1-rc.2.tm.17",
+    "warning": "2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "4.1.7",
+    "babel-loader": "6.1.0",
+    "babel-preset-es2015": "6.1.18",
+    "babel-preset-react": "6.1.18",
+    "babel-preset-stage-0": "6.1.18",
+    "body-parser": "1.13.3",
+    "cors": "2.7.1",
+    "css-loader": "0.17.0",
+    "enzyme": "2.7.1",
+    "enzyme-to-json": "1.5.0",
+    "eslint": "1.10.3",
+    "eslint-loader": "1.1.1",
+    "eslint-plugin-react": "3.11.3",
+    "express": "4.13.3",
+    "file-loader": "0.8.4",
+    "jest": "19.0.2",
+    "jsdom": "9.12.0",
+    "json-loader": "0.5.2",
+    "less": "2.5.1",
+    "less-loader": "2.2.0",
+    "moment": "2.12.0",
+    "react-addons-test-utils": "15.3.2",
+    "sinon": "6.3.5",
+    "style-loader": "0.12.3",
+    "tm-icon": "1.12.0",
+    "url-loader": "0.5.6",
+    "webpack": "1.12.0",
+    "webpack-dev-server": "1.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://adc.github.trendmicro.com/Core-DeepDiscovery/react-commercial-bootstrap.git"
+  },
+  "jest": {
+    "verbose": true,
+    "moduleDirectories": [
+      "node_modules",
+      "src",
+      "__tests__"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/__mocks__/empty_file.js"
+    },
+    "setupFiles": [
+      "<rootDir>/tools/jest/setup.js"
+    ],
+    "coverageReporters": [
+      "lcov"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton empty 1`] = `
+<IconButton
+  active={false}
+  block={false}
+  bsClass="button"
+  bsStyle="default"
+  isCaretStyle={false}
+  isDropdown={false}
+  type="button"
+>
+  <button
+    className="btn btn-default"
+    type="button"
+  />
+</IconButton>
+`;
+
+exports[`IconButton glyphicon 1`] = `
+<IconButton
+  active={false}
+  block={false}
+  bsClass="button"
+  bsStyle="default"
+  glyphiconType="pen"
+  isCaretStyle={false}
+  isDropdown={false}
+  type="button"
+>
+  <button
+    className="btn btn-default"
+    type="button"
+  >
+    <Glyphicon
+      ariaHidden={true}
+      bsClass="glyphicon"
+      bsStyle="pen"
+    >
+      <span
+        aria-hidden={true}
+        className="glyphicon pen"
+      />
+    </Glyphicon>
+     
+  </button>
+</IconButton>
+`;
+
+exports[`IconButton image icon 1`] = `
+<IconButton
+  active={false}
+  block={false}
+  bsClass="button"
+  bsStyle="default"
+  imgIconSrc="./fake.jpg"
+  isCaretStyle={false}
+  isDropdown={false}
+  type="button"
+>
+  <button
+    className="btn btn-default"
+    imgIconSrc="./fake.jpg"
+    type="button"
+  >
+    <img
+      src="./fake.jpg"
+    />
+     
+  </button>
+</IconButton>
+`;
+
+exports[`IconButton with text 1`] = `
+<IconButton
+  active={false}
+  block={false}
+  bsClass="button"
+  bsStyle="default"
+  glyphiconType="pen"
+  isCaretStyle={false}
+  isDropdown={false}
+  type="button"
+>
+  <button
+    className="btn btn-default"
+    type="button"
+  >
+    <Glyphicon
+      ariaHidden={true}
+      bsClass="glyphicon"
+      bsStyle="pen"
+    >
+      <span
+        aria-hidden={true}
+        className="glyphicon pen"
+      />
+    </Glyphicon>
+     
+    children
+  </button>
+</IconButton>
+`;

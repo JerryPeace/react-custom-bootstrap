@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LabeledButton without children or buttonText 1`] = `
+<LabeledButton
+  btnLabel="Test Label"
+>
+  <Button
+    active={false}
+    block={false}
+    bsClass="button"
+    bsStyle="default"
+    disabled={false}
+    faProps={Object {}}
+    isCaretStyle={false}
+    isDropdown={false}
+    isLoading={false}
+    standalone={true}
+    type="button"
+  >
+    <button
+      className="btn btn-default"
+      disabled={false}
+      type="button"
+    >
+      <span
+        className="btn-content"
+      >
+        <span
+          className="btn-label"
+        >
+          Test Label
+        </span>
+        children
+      </span>
+    </button>
+  </Button>
+</LabeledButton>
+`;

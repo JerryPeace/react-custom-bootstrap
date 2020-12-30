@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LabelField with default settings 1`] = `
+<LabelField
+  bsClass="label-field"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  labelText="label text"
+  standalone={true}
+  value="value test"
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <div
+        className={undefined}
+      >
+        <span>
+          value test
+        </span>
+      </div>
+    }
+    bsClass="label-field"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    labelText="label text"
+    singleCheckboxRadio={false}
+    standalone={true}
+    value="value test"
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <Label
+        FieldBase={
+          <div
+            className={undefined}
+          >
+            <span>
+              value test
+            </span>
+          </div>
+        }
+        className="col-xs-2"
+        inline={false}
+        labelAlign="left"
+        text="label text"
+        value="value test"
+        wrapperClassName="col-xs-10"
+      >
+        <label
+          className="col-xs-2"
+        >
+          label text
+        </label>
+      </Label>
+      <div
+        className="form-control-static"
+      >
+        <span>
+          value test
+        </span>
+      </div>
+      children
+    </div>
+  </LayoutHelper>
+</LabelField>
+`;
+
+exports[`LabelField with multiple whitespace which should be translated into (0x20, 0xa0) in bytes 1`] = `
+<LabelField
+  bsClass="label-field"
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  labelText="label text"
+  standalone={true}
+  value="multiple       whitespace and   second    one"
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <div
+        className={undefined}
+      >
+        <span>
+          multiple       whitespace and   second    one
+        </span>
+      </div>
+    }
+    bsClass="label-field"
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    labelText="label text"
+    singleCheckboxRadio={false}
+    standalone={true}
+    value="multiple       whitespace and   second    one"
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <Label
+        FieldBase={
+          <div
+            className={undefined}
+          >
+            <span>
+              multiple       whitespace and   second    one
+            </span>
+          </div>
+        }
+        className="col-xs-2"
+        inline={false}
+        labelAlign="left"
+        text="label text"
+        value="multiple       whitespace and   second    one"
+        wrapperClassName="col-xs-10"
+      >
+        <label
+          className="col-xs-2"
+        >
+          label text
+        </label>
+      </Label>
+      <div
+        className="form-control-static"
+      >
+        <span>
+          multiple       whitespace and   second    one
+        </span>
+      </div>
+      children
+    </div>
+  </LayoutHelper>
+</LabelField>
+`;

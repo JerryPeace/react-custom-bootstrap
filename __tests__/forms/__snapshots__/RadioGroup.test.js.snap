@@ -1,0 +1,653 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup with props render correctly when selected changed 1`] = `
+<RadioGroup
+  bsClass="radio-group"
+  inline={false}
+  items={
+    Array [
+      Object {
+        "labelText": "apple",
+        "value": 1,
+      },
+      Object {
+        "labelText": "pen",
+        "value": 2,
+      },
+      Object {
+        "labelText": "pine apple",
+        "value": 3,
+      },
+    ]
+  }
+  labelAlign="right"
+  onChange={[Function]}
+  selectedValue={2}
+  standalone={false}
+>
+  <LayoutHelper
+    FieldBase={
+      Array [
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="apple"
+          onChange={[Function]}
+          standalone={true}
+          value={1}
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Radio
+          bsClass="radio"
+          checked={true}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="pen"
+          onChange={[Function]}
+          standalone={true}
+          value={2}
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="pine apple"
+          onChange={[Function]}
+          standalone={true}
+          value={3}
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+      ]
+    }
+    bsClass="radio-group"
+    inline={false}
+    items={
+      Array [
+        Object {
+          "labelText": "apple",
+          "value": 1,
+        },
+        Object {
+          "labelText": "pen",
+          "value": 2,
+        },
+        Object {
+          "labelText": "pine apple",
+          "value": 3,
+        },
+      ]
+    }
+    labelAlign="right"
+    onChange={[Function]}
+    selectedValue={2}
+    singleCheckboxRadio={false}
+    standalone={false}
+    wrapperClassName="col-xs-10 col-xs-offset-2"
+  >
+    <FormGroup
+      className=""
+    >
+      <div
+        className="form-group"
+      >
+        <div
+          className="col-xs-10 col-xs-offset-2"
+        >
+          <div
+            className="radio-group"
+          >
+            <Radio
+              bsClass="radio"
+              checked={false}
+              inline={false}
+              inputType="radio"
+              labelAlign="right"
+              labelText="apple"
+              onChange={[Function]}
+              standalone={true}
+              value={1}
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <LayoutHelper
+                FieldBase={
+                  <input
+                    checked={false}
+                    onChange={[Function]}
+                    type="radio"
+                    value={1}
+                  />
+                }
+                bsClass="radio"
+                checked={false}
+                inline={false}
+                inputType="radio"
+                labelAlign="right"
+                labelText="apple"
+                onChange={[Function]}
+                singleCheckboxRadio={false}
+                standalone={true}
+                value={1}
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <div
+                  className="radio"
+                >
+                  <Label
+                    FieldBase={
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="radio"
+                        value={1}
+                      />
+                    }
+                    className="checkbox-radio-label radio-wrapper"
+                    inline={false}
+                    inputType="radio"
+                    labelAlign="right"
+                    onChange={[Function]}
+                    text="apple"
+                    value={1}
+                    wrapperClassName="col-xs-offset-2 col-xs-10"
+                  >
+                    <label
+                      className="checkbox-radio-label radio-wrapper"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="radio"
+                        value={1}
+                      />
+                      apple
+                    </label>
+                  </Label>
+                </div>
+              </LayoutHelper>
+            </Radio>
+          </div>
+          <div
+            className="radio-group"
+          >
+            <Radio
+              bsClass="radio"
+              checked={true}
+              inline={false}
+              inputType="radio"
+              labelAlign="right"
+              labelText="pen"
+              onChange={[Function]}
+              standalone={true}
+              value={2}
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <LayoutHelper
+                FieldBase={
+                  <input
+                    checked={true}
+                    onChange={[Function]}
+                    type="radio"
+                    value={2}
+                  />
+                }
+                bsClass="radio"
+                checked={true}
+                inline={false}
+                inputType="radio"
+                labelAlign="right"
+                labelText="pen"
+                onChange={[Function]}
+                singleCheckboxRadio={false}
+                standalone={true}
+                value={2}
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <div
+                  className="radio"
+                >
+                  <Label
+                    FieldBase={
+                      <input
+                        checked={true}
+                        onChange={[Function]}
+                        type="radio"
+                        value={2}
+                      />
+                    }
+                    className="checked checkbox-radio-label radio-wrapper"
+                    inline={false}
+                    inputType="radio"
+                    labelAlign="right"
+                    onChange={[Function]}
+                    text="pen"
+                    value={2}
+                    wrapperClassName="col-xs-offset-2 col-xs-10"
+                  >
+                    <label
+                      className="checked checkbox-radio-label radio-wrapper"
+                    >
+                      <input
+                        checked={true}
+                        onChange={[Function]}
+                        type="radio"
+                        value={2}
+                      />
+                      pen
+                    </label>
+                  </Label>
+                </div>
+              </LayoutHelper>
+            </Radio>
+          </div>
+          <div
+            className="radio-group"
+          >
+            <Radio
+              bsClass="radio"
+              checked={false}
+              inline={false}
+              inputType="radio"
+              labelAlign="right"
+              labelText="pine apple"
+              onChange={[Function]}
+              standalone={true}
+              value={3}
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <LayoutHelper
+                FieldBase={
+                  <input
+                    checked={false}
+                    onChange={[Function]}
+                    type="radio"
+                    value={3}
+                  />
+                }
+                bsClass="radio"
+                checked={false}
+                inline={false}
+                inputType="radio"
+                labelAlign="right"
+                labelText="pine apple"
+                onChange={[Function]}
+                singleCheckboxRadio={false}
+                standalone={true}
+                value={3}
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <div
+                  className="radio"
+                >
+                  <Label
+                    FieldBase={
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="radio"
+                        value={3}
+                      />
+                    }
+                    className="checkbox-radio-label radio-wrapper"
+                    inline={false}
+                    inputType="radio"
+                    labelAlign="right"
+                    onChange={[Function]}
+                    text="pine apple"
+                    value={3}
+                    wrapperClassName="col-xs-offset-2 col-xs-10"
+                  >
+                    <label
+                      className="checkbox-radio-label radio-wrapper"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="radio"
+                        value={3}
+                      />
+                      pine apple
+                    </label>
+                  </Label>
+                </div>
+              </LayoutHelper>
+            </Radio>
+          </div>
+        </div>
+      </div>
+    </FormGroup>
+  </LayoutHelper>
+</RadioGroup>
+`;
+
+exports[`RadioGroup with props should render corrently 1`] = `
+<RadioGroup
+  bsClass="radio-group"
+  inline={false}
+  items={
+    Array [
+      Object {
+        "labelText": "apple",
+        "value": 1,
+      },
+      Object {
+        "labelText": "pen",
+        "value": 2,
+      },
+      Object {
+        "labelText": "pine apple",
+        "value": 3,
+      },
+    ]
+  }
+  labelAlign="right"
+  onChange={[Function]}
+  selectedValue={1}
+  standalone={false}
+>
+  <LayoutHelper
+    FieldBase={
+      Array [
+        <Radio
+          bsClass="radio"
+          checked={true}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="apple"
+          onChange={[Function]}
+          standalone={true}
+          value={1}
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="pen"
+          onChange={[Function]}
+          standalone={true}
+          value={2}
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+        <Radio
+          bsClass="radio"
+          checked={false}
+          inline={false}
+          inputType="radio"
+          labelAlign="right"
+          labelText="pine apple"
+          onChange={[Function]}
+          standalone={true}
+          value={3}
+          wrapperClassName="col-xs-offset-2 col-xs-10"
+      />,
+      ]
+    }
+    bsClass="radio-group"
+    inline={false}
+    items={
+      Array [
+        Object {
+          "labelText": "apple",
+          "value": 1,
+        },
+        Object {
+          "labelText": "pen",
+          "value": 2,
+        },
+        Object {
+          "labelText": "pine apple",
+          "value": 3,
+        },
+      ]
+    }
+    labelAlign="right"
+    onChange={[Function]}
+    selectedValue={1}
+    singleCheckboxRadio={false}
+    standalone={false}
+    wrapperClassName="col-xs-10 col-xs-offset-2"
+  >
+    <FormGroup
+      className=""
+    >
+      <div
+        className="form-group"
+      >
+        <div
+          className="col-xs-10 col-xs-offset-2"
+        >
+          <div
+            className="radio-group"
+          >
+            <Radio
+              bsClass="radio"
+              checked={true}
+              inline={false}
+              inputType="radio"
+              labelAlign="right"
+              labelText="apple"
+              onChange={[Function]}
+              standalone={true}
+              value={1}
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <LayoutHelper
+                FieldBase={
+                  <input
+                    checked={true}
+                    onChange={[Function]}
+                    type="radio"
+                    value={1}
+                  />
+                }
+                bsClass="radio"
+                checked={true}
+                inline={false}
+                inputType="radio"
+                labelAlign="right"
+                labelText="apple"
+                onChange={[Function]}
+                singleCheckboxRadio={false}
+                standalone={true}
+                value={1}
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <div
+                  className="radio"
+                >
+                  <Label
+                    FieldBase={
+                      <input
+                        checked={true}
+                        onChange={[Function]}
+                        type="radio"
+                        value={1}
+                      />
+                    }
+                    className="checked checkbox-radio-label radio-wrapper"
+                    inline={false}
+                    inputType="radio"
+                    labelAlign="right"
+                    onChange={[Function]}
+                    text="apple"
+                    value={1}
+                    wrapperClassName="col-xs-offset-2 col-xs-10"
+                  >
+                    <label
+                      className="checked checkbox-radio-label radio-wrapper"
+                    >
+                      <input
+                        checked={true}
+                        onChange={[Function]}
+                        type="radio"
+                        value={1}
+                      />
+                      apple
+                    </label>
+                  </Label>
+                </div>
+              </LayoutHelper>
+            </Radio>
+          </div>
+          <div
+            className="radio-group"
+          >
+            <Radio
+              bsClass="radio"
+              checked={false}
+              inline={false}
+              inputType="radio"
+              labelAlign="right"
+              labelText="pen"
+              onChange={[Function]}
+              standalone={true}
+              value={2}
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <LayoutHelper
+                FieldBase={
+                  <input
+                    checked={false}
+                    onChange={[Function]}
+                    type="radio"
+                    value={2}
+                  />
+                }
+                bsClass="radio"
+                checked={false}
+                inline={false}
+                inputType="radio"
+                labelAlign="right"
+                labelText="pen"
+                onChange={[Function]}
+                singleCheckboxRadio={false}
+                standalone={true}
+                value={2}
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <div
+                  className="radio"
+                >
+                  <Label
+                    FieldBase={
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="radio"
+                        value={2}
+                      />
+                    }
+                    className="checkbox-radio-label radio-wrapper"
+                    inline={false}
+                    inputType="radio"
+                    labelAlign="right"
+                    onChange={[Function]}
+                    text="pen"
+                    value={2}
+                    wrapperClassName="col-xs-offset-2 col-xs-10"
+                  >
+                    <label
+                      className="checkbox-radio-label radio-wrapper"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="radio"
+                        value={2}
+                      />
+                      pen
+                    </label>
+                  </Label>
+                </div>
+              </LayoutHelper>
+            </Radio>
+          </div>
+          <div
+            className="radio-group"
+          >
+            <Radio
+              bsClass="radio"
+              checked={false}
+              inline={false}
+              inputType="radio"
+              labelAlign="right"
+              labelText="pine apple"
+              onChange={[Function]}
+              standalone={true}
+              value={3}
+              wrapperClassName="col-xs-offset-2 col-xs-10"
+            >
+              <LayoutHelper
+                FieldBase={
+                  <input
+                    checked={false}
+                    onChange={[Function]}
+                    type="radio"
+                    value={3}
+                  />
+                }
+                bsClass="radio"
+                checked={false}
+                inline={false}
+                inputType="radio"
+                labelAlign="right"
+                labelText="pine apple"
+                onChange={[Function]}
+                singleCheckboxRadio={false}
+                standalone={true}
+                value={3}
+                wrapperClassName="col-xs-offset-2 col-xs-10"
+              >
+                <div
+                  className="radio"
+                >
+                  <Label
+                    FieldBase={
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="radio"
+                        value={3}
+                      />
+                    }
+                    className="checkbox-radio-label radio-wrapper"
+                    inline={false}
+                    inputType="radio"
+                    labelAlign="right"
+                    onChange={[Function]}
+                    text="pine apple"
+                    value={3}
+                    wrapperClassName="col-xs-offset-2 col-xs-10"
+                  >
+                    <label
+                      className="checkbox-radio-label radio-wrapper"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="radio"
+                        value={3}
+                      />
+                      pine apple
+                    </label>
+                  </Label>
+                </div>
+              </LayoutHelper>
+            </Radio>
+          </div>
+        </div>
+      </div>
+    </FormGroup>
+  </LayoutHelper>
+</RadioGroup>
+`;

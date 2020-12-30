@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge render badge default 1`] = `
+<Badge
+  bsClass="badge"
+>
+  <span
+    className="badge"
+  >
+    <div>
+      test
+    </div>
+  </span>
+</Badge>
+`;
+
+exports[`Badge render badge with props 1`] = `
+<Badge
+  bsClass="badge"
+  className="test_class"
+  prop1="prop1"
+  prop2="prop2"
+>
+  <span
+    className="test_class badge"
+    prop1="prop1"
+    prop2="prop2"
+  >
+    <div>
+      test
+    </div>
+  </span>
+</Badge>
+`;

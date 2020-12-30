@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal with header/body/footer props click on close should hide modal 1`] = `
+<Modal
+  body="This is body."
+  closeBtn={true}
+  defaultShow={true}
+  enableEscapeToClose={false}
+  footer="This is footer."
+  header="This is header."
+  isLoading={false}
+  onClose={[Function]}
+>
+  <ModalContainer
+    bsClass="modal"
+    bsSize="md"
+    className=""
+    defaultShow={true}
+    isLoading={false}
+    noCover={false}
+    onEscapePressed={null}
+    show={false}
+  >
+    <div
+      className="modal"
+      onKeyUp={null}
+    >
+      <div
+        className="modal-dialog modal-md"
+      >
+        <div
+          className="modal-content"
+        >
+          <Header
+            bsClass="modal-header"
+            closeBtn={true}
+            onClick={[Function]}
+          >
+            <div
+              className="modal-header"
+            >
+              <button
+                aria-label="Close"
+                className="close"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  aria-hidden={true}
+                >
+                  ×
+                </span>
+              </button>
+              <h4
+                className="modal-title"
+              >
+                This is header.
+              </h4>
+            </div>
+          </Header>
+          <Body
+            bsClass="modal-body"
+          >
+            <div
+              className="modal-body"
+            >
+              This is body.
+            </div>
+          </Body>
+          <Footer
+            bsClass="modal-footer"
+          >
+            <div
+              className="modal-footer"
+            >
+              This is footer.
+            </div>
+          </Footer>
+        </div>
+      </div>
+    </div>
+  </ModalContainer>
+</Modal>
+`;
+
+exports[`Modal with header/body/footer props should render corrently 1`] = `
+<Modal
+  body="This is body."
+  closeBtn={true}
+  defaultShow={true}
+  enableEscapeToClose={false}
+  footer="This is footer."
+  header="This is header."
+  isLoading={false}
+  onClose={[Function]}
+>
+  <ModalContainer
+    bsClass="modal"
+    bsSize="md"
+    className=""
+    defaultShow={true}
+    isLoading={false}
+    noCover={false}
+    onEscapePressed={null}
+    show={true}
+  >
+    <div
+      className="modal show"
+      onKeyUp={null}
+    >
+      <div
+        className="modal-dialog modal-md"
+      >
+        <div
+          className="modal-content"
+        >
+          <Header
+            bsClass="modal-header"
+            closeBtn={true}
+            onClick={[Function]}
+          >
+            <div
+              className="modal-header"
+            >
+              <button
+                aria-label="Close"
+                className="close"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  aria-hidden={true}
+                >
+                  ×
+                </span>
+              </button>
+              <h4
+                className="modal-title"
+              >
+                This is header.
+              </h4>
+            </div>
+          </Header>
+          <Body
+            bsClass="modal-body"
+          >
+            <div
+              className="modal-body"
+            >
+              This is body.
+            </div>
+          </Body>
+          <Footer
+            bsClass="modal-footer"
+          >
+            <div
+              className="modal-footer"
+            >
+              This is footer.
+            </div>
+          </Footer>
+        </div>
+      </div>
+    </div>
+  </ModalContainer>
+</Modal>
+`;
+
+exports[`Modal with show prop should hide after toggle show prop 1`] = `
+<Modal
+  body="This is body."
+  closeBtn={false}
+  defaultShow={true}
+  enableEscapeToClose={false}
+  footer="This is footer."
+  header="This is header."
+  isLoading={false}
+  show={false}
+>
+  <ModalContainer
+    bsClass="modal"
+    bsSize="md"
+    className=""
+    defaultShow={true}
+    isLoading={false}
+    noCover={false}
+    onEscapePressed={null}
+    show={false}
+  >
+    <div
+      className="modal"
+      onKeyUp={null}
+    >
+      <div
+        className="modal-dialog modal-md"
+      >
+        <div
+          className="modal-content"
+        >
+          <Header
+            bsClass="modal-header"
+            closeBtn={false}
+            onClick={[Function]}
+          >
+            <div
+              className="modal-header"
+            >
+              <h4
+                className="modal-title"
+              >
+                This is header.
+              </h4>
+            </div>
+          </Header>
+          <Body
+            bsClass="modal-body"
+          >
+            <div
+              className="modal-body"
+            >
+              This is body.
+            </div>
+          </Body>
+          <Footer
+            bsClass="modal-footer"
+          >
+            <div
+              className="modal-footer"
+            >
+              This is footer.
+            </div>
+          </Footer>
+        </div>
+      </div>
+    </div>
+  </ModalContainer>
+</Modal>
+`;
+
+exports[`Modal with show prop should render corrently 1`] = `
+<Modal
+  body="This is body."
+  closeBtn={false}
+  defaultShow={true}
+  enableEscapeToClose={false}
+  footer="This is footer."
+  header="This is header."
+  isLoading={false}
+  show={true}
+>
+  <ModalContainer
+    bsClass="modal"
+    bsSize="md"
+    className=""
+    defaultShow={true}
+    isLoading={false}
+    noCover={false}
+    onEscapePressed={null}
+    show={true}
+  >
+    <div
+      className="modal show"
+      onKeyUp={null}
+    >
+      <div
+        className="modal-dialog modal-md"
+      >
+        <div
+          className="modal-content"
+        >
+          <Header
+            bsClass="modal-header"
+            closeBtn={false}
+            onClick={[Function]}
+          >
+            <div
+              className="modal-header"
+            >
+              <h4
+                className="modal-title"
+              >
+                This is header.
+              </h4>
+            </div>
+          </Header>
+          <Body
+            bsClass="modal-body"
+          >
+            <div
+              className="modal-body"
+            >
+              This is body.
+            </div>
+          </Body>
+          <Footer
+            bsClass="modal-footer"
+          >
+            <div
+              className="modal-footer"
+            >
+              This is footer.
+            </div>
+          </Footer>
+        </div>
+      </div>
+    </div>
+  </ModalContainer>
+</Modal>
+`;

@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollapsiblePanel click on header 1`] = `
+<CollapsiblePanel
+  collapsible={true}
+  defaultExpand={true}
+  titleText="test-title"
+>
+  <div
+    className="panel-collapse"
+  >
+    <div>
+      <div
+        className="collapse-header closed tm-collapser"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#eee",
+            "height": "40px",
+            "padding": "8px 12px",
+          }
+        }
+      >
+        <span
+          className="collapse-header-arrow-icon fa fa-angle-up"
+          style={
+            Object {
+              "color": "#666",
+              "float": "right",
+              "fontSize": "20px",
+            }
+          }
+        />
+        <span
+          className="collapse-header-text"
+          style={
+            Object {
+              "color": "#222",
+              "fontSize": "16px",
+            }
+          }
+        >
+          test-title
+        </span>
+      </div>
+      <div
+        className="collapse"
+      >
+        <div
+          style={
+            Object {
+              "padding": "8px 0px",
+            }
+          }
+        >
+          <div>
+            test
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</CollapsiblePanel>
+`;
+
+exports[`CollapsiblePanel click on header arrow 1`] = `
+<CollapsiblePanel
+  collapsible={true}
+  defaultExpand={true}
+  titleText="test-title"
+>
+  <div
+    className="panel-collapse"
+  >
+    <div>
+      <div
+        className="collapse-header closed tm-collapser"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#eee",
+            "height": "40px",
+            "padding": "8px 12px",
+          }
+        }
+      >
+        <span
+          className="collapse-header-arrow-icon fa fa-angle-up"
+          style={
+            Object {
+              "color": "#666",
+              "float": "right",
+              "fontSize": "20px",
+            }
+          }
+        />
+        <span
+          className="collapse-header-text"
+          style={
+            Object {
+              "color": "#222",
+              "fontSize": "16px",
+            }
+          }
+        >
+          test-title
+        </span>
+      </div>
+      <div
+        className="collapse"
+      >
+        <div
+          style={
+            Object {
+              "padding": "8px 0px",
+            }
+          }
+        >
+          <div>
+            test
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</CollapsiblePanel>
+`;
+
+exports[`CollapsiblePanel click on header close by clicking on arrow and open on text 1`] = `
+<CollapsiblePanel
+  collapsible={true}
+  defaultExpand={true}
+  titleText="test-title"
+>
+  <div
+    className="panel-collapse"
+  >
+    <div>
+      <div
+        className="collapse-header closed tm-collapser"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#eee",
+            "height": "40px",
+            "padding": "8px 12px",
+          }
+        }
+      >
+        <span
+          className="collapse-header-arrow-icon fa fa-angle-up"
+          style={
+            Object {
+              "color": "#666",
+              "float": "right",
+              "fontSize": "20px",
+            }
+          }
+        />
+        <span
+          className="collapse-header-text"
+          style={
+            Object {
+              "color": "#222",
+              "fontSize": "16px",
+            }
+          }
+        >
+          test-title
+        </span>
+      </div>
+      <div
+        className="collapse"
+      >
+        <div
+          style={
+            Object {
+              "padding": "8px 0px",
+            }
+          }
+        >
+          <div>
+            test
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</CollapsiblePanel>
+`;
+
+exports[`CollapsiblePanel click on header close by clicking on arrow and open on text 2`] = `
+<CollapsiblePanel
+  collapsible={true}
+  defaultExpand={true}
+  titleText="test-title"
+>
+  <div
+    className="panel-collapse"
+  >
+    <div>
+      <div
+        className="collapse-header tm-collapser"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#eee",
+            "height": "40px",
+            "padding": "8px 12px",
+          }
+        }
+      >
+        <span
+          className="collapse-header-arrow-icon fa fa-angle-down"
+          style={
+            Object {
+              "color": "#666",
+              "float": "right",
+              "fontSize": "20px",
+            }
+          }
+        />
+        <span
+          className="collapse-header-text"
+          style={
+            Object {
+              "color": "#222",
+              "fontSize": "16px",
+            }
+          }
+        >
+          test-title
+        </span>
+      </div>
+      <div
+        className="in collapse"
+      >
+        <div
+          style={
+            Object {
+              "padding": "8px 0px",
+            }
+          }
+        >
+          <div>
+            test
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</CollapsiblePanel>
+`;
+
+exports[`CollapsiblePanel click on header text 1`] = `
+<CollapsiblePanel
+  collapsible={true}
+  defaultExpand={true}
+  titleText="test-title"
+>
+  <div
+    className="panel-collapse"
+  >
+    <div>
+      <div
+        className="collapse-header closed tm-collapser"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#eee",
+            "height": "40px",
+            "padding": "8px 12px",
+          }
+        }
+      >
+        <span
+          className="collapse-header-arrow-icon fa fa-angle-up"
+          style={
+            Object {
+              "color": "#666",
+              "float": "right",
+              "fontSize": "20px",
+            }
+          }
+        />
+        <span
+          className="collapse-header-text"
+          style={
+            Object {
+              "color": "#222",
+              "fontSize": "16px",
+            }
+          }
+        >
+          test-title
+        </span>
+      </div>
+      <div
+        className="collapse"
+      >
+        <div
+          style={
+            Object {
+              "padding": "8px 0px",
+            }
+          }
+        >
+          <div>
+            test
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</CollapsiblePanel>
+`;
+
+exports[`CollapsiblePanel render CollapsiblePanel default 1`] = `
+<CollapsiblePanel
+  collapsible={true}
+  defaultExpand={true}
+  titleText="test-title"
+>
+  <div
+    className="panel-collapse"
+  >
+    <div>
+      <div
+        className="collapse-header tm-collapser"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#eee",
+            "height": "40px",
+            "padding": "8px 12px",
+          }
+        }
+      >
+        <span
+          className="collapse-header-arrow-icon fa fa-angle-down"
+          style={
+            Object {
+              "color": "#666",
+              "float": "right",
+              "fontSize": "20px",
+            }
+          }
+        />
+        <span
+          className="collapse-header-text"
+          style={
+            Object {
+              "color": "#222",
+              "fontSize": "16px",
+            }
+          }
+        >
+          test-title
+        </span>
+      </div>
+      <div
+        className="in collapse"
+      >
+        <div
+          style={
+            Object {
+              "padding": "8px 0px",
+            }
+          }
+        >
+          <div>
+            test
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</CollapsiblePanel>
+`;

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateTimePicker should render correctly. 1`] = `
+<Constructor
+  backLabel={
+    <TmIcon
+      name="calendar"
+      prefix="tmicon"
+      tag="span"
+    />
+  }
+  className=""
+  closeOnSelect={true}
+  closeOnTab={true}
+  columnOfMonth={3}
+  dateFormat="YYYY-MM-DD"
+  defaultValue=""
+  disabled={false}
+  entryLabel={
+    <TmIcon
+      name="clock"
+      prefix="tmicon"
+      tag="span"
+    />
+  }
+  fullMonthLabel={true}
+  input={true}
+  inputLabel={
+    <TmIcon
+      name="calendar"
+      prefix="tmicon"
+      tag="span"
+    />
+  }
+  inputProps={
+    Object {
+      "disabled": false,
+    }
+  }
+  isValidDate={[Function]}
+  minTimeGap={1}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  renderDay={[Function]}
+  strictParsing={true}
+  timeConstraints={Object {}}
+  timeFormat="HH:mm:ss"
+  timeGapUnit="s"
+  timeToggleLabelDown={
+    <TmIcon
+      name="chevron-down"
+      prefix="tmicon"
+      tag="span"
+    />
+  }
+  timeToggleLabelUp={
+    <TmIcon
+      name="chevron-up"
+      prefix="tmicon"
+      tag="span"
+    />
+  }
+  timeViewEntryLabel={null}
+  utc={false}
+  value="2018-10-11 20:20:20"
+  weekDayDisplayMode="short"
+/>
+`;

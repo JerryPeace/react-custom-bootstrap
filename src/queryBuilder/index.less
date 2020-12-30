@@ -1,0 +1,32 @@
+.query-builder {
+    .first-last-line-empty {
+        visibility: hidden;
+    }
+
+    .condition-column {
+        width: 55px !important;
+        height: 30px;
+        .condition-column-inner {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 35px;
+            height: 20px;
+        }
+    }
+
+    .add-column,
+    .remove-column {
+        display: inline-block;
+        button {
+            min-width: inherit;
+        }
+    }
+
+    .remove-column {
+        margin-left: 4px;
+    }
+}

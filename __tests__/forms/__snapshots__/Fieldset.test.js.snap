@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fieldset render fieldset correctly 1`] = `
+<Fieldset
+  disableDirtyCheck={false}
+  title="test-title"
+>
+  <fieldset>
+    <legend>
+      test-title
+    </legend>
+    <div
+      className="fieldset-content"
+    >
+      <div>
+        test
+      </div>
+    </div>
+  </fieldset>
+</Fieldset>
+`;

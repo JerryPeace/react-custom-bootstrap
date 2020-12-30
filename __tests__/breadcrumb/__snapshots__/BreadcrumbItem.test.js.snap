@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadcrumbItem apply bootstrap style 1`] = `
+<BreadcrumbItem
+  active={true}
+  bsClass="banner"
+  bsStyle="info"
+>
+  <li
+    bsClass="banner"
+    bsStyle="info"
+    className="active banner banner-info"
+  >
+    <div>
+      test
+    </div>
+  </li>
+</BreadcrumbItem>
+`;
+
+exports[`BreadcrumbItem default render 1`] = `
+<BreadcrumbItem
+  active={false}
+>
+  <li
+    className=""
+  >
+    <div>
+      test
+    </div>
+  </li>
+</BreadcrumbItem>
+`;

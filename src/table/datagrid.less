@@ -1,0 +1,136 @@
+.data-table {
+    background-color: #f8f8f8;
+    border: solid 1px #ddd;
+    text-align: left;
+    border-top: none;
+    .btn-group {
+        padding: 9px 12px;
+    }
+}
+@headerBackground: #eeeeee;
+.react-datagrid {
+    .react-load-mask {
+        z-index: 11;
+    }
+    .z-scroller {
+        background-color: #fff;
+    }
+    .z-content-wrapper-fix {
+        border-right: solid 1px #ddd;
+    }
+    /* th styles */
+    .z-header-wrapper {
+        border-top: solid 1px #d6d6d6;
+        border-bottom: 2px solid #d0d0d0;
+        background: @headerBackground;
+    }
+    .z-column-header {
+        color: #777;
+        font-size: 13px;
+        font-weight: 700;
+        padding: 8px 0;
+
+        /* th:hover */
+        &.z-over {
+            background: @headerBackground;
+            &.z-sortable {
+                background-color: #e6e6e6;
+            }
+        }
+
+        .z-content {
+            *:not(.rowSelector) {
+                vertical-align: middle;
+            }
+            .z-icon-sort-info {
+                margin-bottom: 2px;
+            }
+        }
+
+        &.z-sortable, &.z-sortable .z-content {
+            cursor: pointer;
+        }
+
+        .z-icon-sort-info {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-left: 0;
+            border-left: none;
+        }
+
+        &.z-asc {
+            color: #222;
+            .z-icon-sort-info {
+                background-image: url("./images/icon_thSortAscending.svg");
+                border-bottom: none;
+            }
+        }
+        &.z-desc {
+            color: #222;
+            .z-icon-sort-info {
+                background-image: url("./images/icon_thSortDescending.svg");
+                border-top: none;
+            }
+        }
+        .z-column-resize {
+            width: 4;
+        }
+    }
+    .z-header .z-column-header.z-cell {
+        &:not(.z-first) {
+            border-left: 1px solid #ddd;
+        }
+
+        &.z-last {
+            border-right: 1px solid #ddd;
+        }
+    }
+
+    /* tr styles */
+    &.z-style-alternate .z-row {
+        &.z-odd, &.z-even {
+            background-color: #fff;
+        }
+
+        &.z-over {
+            background-color: #e6f4fc;
+        }
+        &.z-selected {
+            background: #fcf8da;
+        }
+    }
+
+    .z-row {
+        border-bottom: solid 1px #ddd;
+        min-height: 37px;
+        .z-cell {
+            padding: 8px 12px;
+            &:not(.z-first) {
+                border-left: solid 1px #ddd;
+            }
+            .z-content {
+                font-size: 13px;
+                padding: 0;
+            }
+        }
+    }
+    .z-first {
+        .rowSelector {
+            margin-left: 4px;
+            margin-top: 0px;
+        }
+    }
+
+    &.z-empty .z-empty-text  {
+        height: 72px;
+        font-size: 13px;
+        font-style: normal;
+        color: #999;
+    }
+}
+
+.react-datagrid-pagination-toolbar {
+    color: #222;
+    border-top: solid 1px #ddd;
+}

@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select with default settiings should render corrently 1`] = `
+<Select
+  bsClass="select"
+  defaultValue="opt2"
+  items={
+    Array [
+      Object {
+        "text": "This is Option1",
+        "value": "opt1",
+      },
+      Object {
+        "text": "This is Option2",
+        "value": "opt2",
+      },
+      Object {
+        "text": "This is Option3",
+        "value": "opt3",
+      },
+    ]
+  }
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  labelText="Select:"
+  standalone={true}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <select
+        defaultValue="opt2"
+        value={undefined}
+      >
+        <option
+          value="opt1"
+        >
+          This is Option1
+        </option>
+        <option
+          value="opt2"
+        >
+          This is Option2
+        </option>
+        <option
+          value="opt3"
+        >
+          This is Option3
+        </option>
+      </select>
+    }
+    bsClass="select"
+    defaultValue="opt2"
+    items={
+      Array [
+        Object {
+          "text": "This is Option1",
+          "value": "opt1",
+        },
+        Object {
+          "text": "This is Option2",
+          "value": "opt2",
+        },
+        Object {
+          "text": "This is Option3",
+          "value": "opt3",
+        },
+      ]
+    }
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    labelText="Select:"
+    singleCheckboxRadio={false}
+    standalone={true}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <Label
+        FieldBase={
+          <select
+            defaultValue="opt2"
+            value={undefined}
+          >
+            <option
+              value="opt1"
+            >
+              This is Option1
+            </option>
+            <option
+              value="opt2"
+            >
+              This is Option2
+            </option>
+            <option
+              value="opt3"
+            >
+              This is Option3
+            </option>
+          </select>
+        }
+        className="col-xs-2"
+        defaultValue="opt2"
+        inline={false}
+        items={
+          Array [
+            Object {
+              "text": "This is Option1",
+              "value": "opt1",
+            },
+            Object {
+              "text": "This is Option2",
+              "value": "opt2",
+            },
+            Object {
+              "text": "This is Option3",
+              "value": "opt3",
+            },
+          ]
+        }
+        labelAlign="left"
+        text="Select:"
+        wrapperClassName="col-xs-10"
+      >
+        <label
+          className="col-xs-2"
+        >
+          Select:
+        </label>
+      </Label>
+      <select
+        className="form-control"
+        defaultValue="opt2"
+      >
+        <option
+          value="opt1"
+        >
+          This is Option1
+        </option>
+        <option
+          value="opt2"
+        >
+          This is Option2
+        </option>
+        <option
+          value="opt3"
+        >
+          This is Option3
+        </option>
+      </select>
+    </div>
+  </LayoutHelper>
+</Select>
+`;
+
+exports[`Select with empty items should render corrently 1`] = `
+<Select
+  bsClass="select"
+  items={Array []}
+  labelAlign="left"
+  labelClassName="col-xs-2"
+  labelText="Select:"
+  standalone={true}
+  wrapperClassName="col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <select
+        defaultValue=""
+        value={undefined}
+      >
+        
+      </select>
+    }
+    bsClass="select"
+    items={Array []}
+    labelAlign="left"
+    labelClassName="col-xs-2"
+    labelText="Select:"
+    singleCheckboxRadio={false}
+    standalone={true}
+    wrapperClassName="col-xs-10"
+  >
+    <div
+      className=""
+    >
+      <Label
+        FieldBase={
+          <select
+            defaultValue=""
+            value={undefined}
+          >
+            
+          </select>
+        }
+        className="col-xs-2"
+        inline={false}
+        items={Array []}
+        labelAlign="left"
+        text="Select:"
+        wrapperClassName="col-xs-10"
+      >
+        <label
+          className="col-xs-2"
+        >
+          Select:
+        </label>
+      </Label>
+      <select
+        className="form-control"
+        defaultValue=""
+      />
+    </div>
+  </LayoutHelper>
+</Select>
+`;

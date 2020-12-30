@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb No help button default render 1`] = `
+<Breadcrumb
+  bsClass="breadcrumb"
+  hasHelp={false}
+>
+  <ul
+    className="breadcrumb"
+  >
+    <div>
+      test
+    </div>
+  </ul>
+</Breadcrumb>
+`;
+
+exports[`Breadcrumb Show help button default render 1`] = `
+<Breadcrumb
+  bsClass="breadcrumb"
+  hasHelp={true}
+  onClickHelp={[Function]}
+>
+  <ul
+    className="breadcrumb"
+  >
+    <div>
+      test
+    </div>
+    <li
+      className="icon-help"
+      onClick={[Function]}
+    />
+  </ul>
+</Breadcrumb>
+`;

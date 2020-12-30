@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputGroup InputGroup should render corrently 1`] = `
+<InputGroup
+  bsClass="input-group"
+>
+  <div
+    className="input-group"
+  >
+    <Textfield
+      bsClass="input"
+      delayValidateTime={500}
+      disabled={false}
+      helpText=""
+      helpTextClassName="has-error"
+      inputType="text"
+      labelAlign="left"
+      labelClassName="col-xs-2"
+      multiline={false}
+      standalone={true}
+      validator={[Function]}
+      wrapperClassName="col-xs-10"
+    >
+      <LayoutHelper
+        FieldBase={
+          <input
+            className=""
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        }
+        bsClass="input"
+        delayValidateTime={500}
+        disabled={false}
+        getInputEl={[Function]}
+        helpText={null}
+        helpTextClassName="has-error"
+        inputType="text"
+        labelAlign="left"
+        labelClassName="col-xs-2"
+        multiline={false}
+        singleCheckboxRadio={false}
+        standalone={true}
+        validator={[Function]}
+        wrapperClassName="col-xs-10"
+      >
+        <div
+          className=""
+        >
+          <input
+            className="form-control"
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </LayoutHelper>
+    </Textfield>
+  </div>
+</InputGroup>
+`;
+
+exports[`InputGroup with both left field and right field should render corrently 1`] = `
+<InputGroup
+  bsClass="input-group"
+  leftField="left field"
+  leftFieldType="others"
+  rightField="right field"
+  rightFieldType="others"
+>
+  <div
+    className="input-group"
+  >
+    <span
+      className="input-group-addon"
+    >
+      left field
+    </span>
+    <Textfield
+      bsClass="input"
+      delayValidateTime={500}
+      disabled={false}
+      helpText=""
+      helpTextClassName="has-error"
+      inputType="text"
+      labelAlign="left"
+      labelClassName="col-xs-2"
+      multiline={false}
+      standalone={true}
+      validator={[Function]}
+      wrapperClassName="col-xs-10"
+    >
+      <LayoutHelper
+        FieldBase={
+          <input
+            className=""
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        }
+        bsClass="input"
+        delayValidateTime={500}
+        disabled={false}
+        getInputEl={[Function]}
+        helpText={null}
+        helpTextClassName="has-error"
+        inputType="text"
+        labelAlign="left"
+        labelClassName="col-xs-2"
+        multiline={false}
+        singleCheckboxRadio={false}
+        standalone={true}
+        validator={[Function]}
+        wrapperClassName="col-xs-10"
+      >
+        <div
+          className=""
+        >
+          <input
+            className="form-control"
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </LayoutHelper>
+    </Textfield>
+    <span
+      className="input-group-addon"
+    >
+      right field
+    </span>
+  </div>
+</InputGroup>
+`;
+
+exports[`InputGroup with only left field (button-group) should render corrently 1`] = `
+<InputGroup
+  bsClass="input-group"
+  leftField="left field"
+  leftFieldType="button-group"
+>
+  <div
+    className="input-group"
+  >
+    <span
+      className="input-group-btn"
+    >
+      left field
+    </span>
+    <Textfield
+      bsClass="input"
+      delayValidateTime={500}
+      disabled={false}
+      helpText=""
+      helpTextClassName="has-error"
+      inputType="text"
+      labelAlign="left"
+      labelClassName="col-xs-2"
+      multiline={false}
+      standalone={true}
+      validator={[Function]}
+      wrapperClassName="col-xs-10"
+    >
+      <LayoutHelper
+        FieldBase={
+          <input
+            className=""
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        }
+        bsClass="input"
+        delayValidateTime={500}
+        disabled={false}
+        getInputEl={[Function]}
+        helpText={null}
+        helpTextClassName="has-error"
+        inputType="text"
+        labelAlign="left"
+        labelClassName="col-xs-2"
+        multiline={false}
+        singleCheckboxRadio={false}
+        standalone={true}
+        validator={[Function]}
+        wrapperClassName="col-xs-10"
+      >
+        <div
+          className=""
+        >
+          <input
+            className="form-control"
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </LayoutHelper>
+    </Textfield>
+  </div>
+</InputGroup>
+`;
+
+exports[`InputGroup with only left field should render corrently 1`] = `
+<InputGroup
+  bsClass="input-group"
+  leftField="left field"
+  leftFieldType="others"
+>
+  <div
+    className="input-group"
+  >
+    <span
+      className="input-group-addon"
+    >
+      left field
+    </span>
+    <Textfield
+      bsClass="input"
+      delayValidateTime={500}
+      disabled={false}
+      helpText=""
+      helpTextClassName="has-error"
+      inputType="text"
+      labelAlign="left"
+      labelClassName="col-xs-2"
+      multiline={false}
+      standalone={true}
+      validator={[Function]}
+      wrapperClassName="col-xs-10"
+    >
+      <LayoutHelper
+        FieldBase={
+          <input
+            className=""
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        }
+        bsClass="input"
+        delayValidateTime={500}
+        disabled={false}
+        getInputEl={[Function]}
+        helpText={null}
+        helpTextClassName="has-error"
+        inputType="text"
+        labelAlign="left"
+        labelClassName="col-xs-2"
+        multiline={false}
+        singleCheckboxRadio={false}
+        standalone={true}
+        validator={[Function]}
+        wrapperClassName="col-xs-10"
+      >
+        <div
+          className=""
+        >
+          <input
+            className="form-control"
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </LayoutHelper>
+    </Textfield>
+  </div>
+</InputGroup>
+`;
+
+exports[`InputGroup with only right field (button-group) should render corrently 1`] = `
+<InputGroup
+  bsClass="input-group"
+  rightField="right field"
+  rightFieldType="button-group"
+>
+  <div
+    className="input-group"
+  >
+    <Textfield
+      bsClass="input"
+      delayValidateTime={500}
+      disabled={false}
+      helpText=""
+      helpTextClassName="has-error"
+      inputType="text"
+      labelAlign="left"
+      labelClassName="col-xs-2"
+      multiline={false}
+      standalone={true}
+      validator={[Function]}
+      wrapperClassName="col-xs-10"
+    >
+      <LayoutHelper
+        FieldBase={
+          <input
+            className=""
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        }
+        bsClass="input"
+        delayValidateTime={500}
+        disabled={false}
+        getInputEl={[Function]}
+        helpText={null}
+        helpTextClassName="has-error"
+        inputType="text"
+        labelAlign="left"
+        labelClassName="col-xs-2"
+        multiline={false}
+        singleCheckboxRadio={false}
+        standalone={true}
+        validator={[Function]}
+        wrapperClassName="col-xs-10"
+      >
+        <div
+          className=""
+        >
+          <input
+            className="form-control"
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </LayoutHelper>
+    </Textfield>
+    <span
+      className="input-group-btn"
+    >
+      right field
+    </span>
+  </div>
+</InputGroup>
+`;
+
+exports[`InputGroup with only right field should render corrently 1`] = `
+<InputGroup
+  bsClass="input-group"
+  rightField="right field"
+  rightFieldType="others"
+>
+  <div
+    className="input-group"
+  >
+    <Textfield
+      bsClass="input"
+      delayValidateTime={500}
+      disabled={false}
+      helpText=""
+      helpTextClassName="has-error"
+      inputType="text"
+      labelAlign="left"
+      labelClassName="col-xs-2"
+      multiline={false}
+      standalone={true}
+      validator={[Function]}
+      wrapperClassName="col-xs-10"
+    >
+      <LayoutHelper
+        FieldBase={
+          <input
+            className=""
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        }
+        bsClass="input"
+        delayValidateTime={500}
+        disabled={false}
+        getInputEl={[Function]}
+        helpText={null}
+        helpTextClassName="has-error"
+        inputType="text"
+        labelAlign="left"
+        labelClassName="col-xs-2"
+        multiline={false}
+        singleCheckboxRadio={false}
+        standalone={true}
+        validator={[Function]}
+        wrapperClassName="col-xs-10"
+      >
+        <div
+          className=""
+        >
+          <input
+            className="form-control"
+            disabled={false}
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </LayoutHelper>
+    </Textfield>
+    <span
+      className="input-group-addon"
+    >
+      right field
+    </span>
+  </div>
+</InputGroup>
+`;

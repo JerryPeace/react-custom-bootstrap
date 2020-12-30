@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel render Panel default 1`] = `
+<Panel
+  bsClass="panel"
+  bsStyle="default"
+  mask={false}
+>
+  <div
+    className="panel panel-default"
+  >
+    <div
+      className="panel-body"
+    >
+      <span>
+        test
+      </span>
+    </div>
+  </div>
+</Panel>
+`;
+
+exports[`Panel render Panel default with all 1`] = `
+<Panel
+  bsClass="panel"
+  bsStyle="default"
+  footer={
+    <div>
+      FOOTER
+    </div>
+  }
+  header={
+    <div>
+      HEADER
+    </div>
+  }
+  mask={true}
+>
+  <div
+    className="panel panel-default"
+  >
+    <div
+      className="panel-heading"
+    >
+      <div>
+        HEADER
+      </div>
+    </div>
+    <div
+      className="panel-body maskContainer"
+    >
+      <span>
+        test
+      </span>
+      <Mask
+        loaderProps={
+          Object {
+            "bsSize": "md",
+          }
+        }
+        show={true}
+      >
+        <div
+          className="tm-mask"
+        >
+          <div />
+        </div>
+      </Mask>
+    </div>
+    <div
+      className="panel-footer"
+    >
+      <div>
+        FOOTER
+      </div>
+    </div>
+  </div>
+</Panel>
+`;
+
+exports[`Panel render Panel default with footer 1`] = `
+<Panel
+  bsClass="panel"
+  bsStyle="default"
+  footer={
+    <div>
+      FOOTER
+    </div>
+  }
+  mask={false}
+>
+  <div
+    className="panel panel-default"
+  >
+    <div
+      className="panel-body"
+    >
+      <span>
+        test
+      </span>
+    </div>
+    <div
+      className="panel-footer"
+    >
+      <div>
+        FOOTER
+      </div>
+    </div>
+  </div>
+</Panel>
+`;
+
+exports[`Panel render Panel default with header node 1`] = `
+<Panel
+  bsClass="panel"
+  bsStyle="default"
+  header={
+    <div>
+      HEADER
+    </div>
+  }
+  mask={false}
+>
+  <div
+    className="panel panel-default"
+  >
+    <div
+      className="panel-heading"
+    >
+      <div>
+        HEADER
+      </div>
+    </div>
+    <div
+      className="panel-body"
+    >
+      <span>
+        test
+      </span>
+    </div>
+  </div>
+</Panel>
+`;
+
+exports[`Panel render Panel default with header text 1`] = `
+<Panel
+  bsClass="panel"
+  bsStyle="default"
+  header="test header"
+  mask={false}
+>
+  <div
+    className="panel panel-default"
+  >
+    <div
+      className="panel-heading"
+    >
+      <h6
+        className="panel-title"
+      >
+        test header
+      </h6>
+    </div>
+    <div
+      className="panel-body"
+    >
+      <span>
+        test
+      </span>
+    </div>
+  </div>
+</Panel>
+`;
+
+exports[`Panel render Panel default with mask 1`] = `
+<Panel
+  bsClass="panel"
+  bsStyle="default"
+  mask={true}
+>
+  <div
+    className="panel panel-default"
+  >
+    <div
+      className="panel-body maskContainer"
+    >
+      <span>
+        test
+      </span>
+      <Mask
+        loaderProps={
+          Object {
+            "bsSize": "md",
+          }
+        }
+        show={true}
+      >
+        <div
+          className="tm-mask"
+        >
+          <div />
+        </div>
+      </Mask>
+    </div>
+  </div>
+</Panel>
+`;

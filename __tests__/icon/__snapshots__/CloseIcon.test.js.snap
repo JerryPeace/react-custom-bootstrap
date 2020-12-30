@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CloseIcon render CloseIcon correctly 1`] = `
+<CloseIcon
+  onClick={[Function]}
+>
+  <a
+    className="close"
+    href="#"
+    onClick={[Function]}
+  >
+    <span>
+      ×
+    </span>
+  </a>
+</CloseIcon>
+`;

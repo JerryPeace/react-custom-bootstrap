@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelpText HelpText should render corrently 1`] = `
+<HelpText
+  bsClass="help-block"
+>
+  <div
+    className=""
+  >
+    <span
+      className="msg help-block"
+    />
+  </div>
+</HelpText>
+`;

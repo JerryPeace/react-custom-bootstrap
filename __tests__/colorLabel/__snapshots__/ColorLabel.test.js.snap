@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorLabel render productLogo correctly 1`] = `
+<ColorLabel
+  bsClass="label"
+  bsStyle="light-gray"
+>
+  <span
+    className="label label-light-gray"
+  >
+    <div>
+      test
+    </div>
+  </span>
+</ColorLabel>
+`;

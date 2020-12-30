@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu render Menu - sideMenu correctly 1`] = `
+<Menu
+  bsClass="dropdown-menu"
+  isMenuAlignRight={false}
+  isMenuCheckStyle={false}
+  isMenuOpen={false}
+  isSubMenuOpenLeft={false}
+  noRootClose={false}
+  sideMenu={true}
+>
+  <ul
+    className="dropdown-menu"
+    style={
+      Object {
+        "border": "none",
+        "boxShadow": "none",
+        "display": "none",
+        "float": "none",
+        "height": "100%",
+        "margin": 0,
+        "padding": 0,
+        "position": "relative",
+        "top": 0,
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <MenuItem
+      deselectable={false}
+      disabled={false}
+      divider={false}
+      header={true}
+      href=""
+      noRootClose={false}
+    >
+      <li
+        className="dropdown-header"
+      >
+        Menu Header
+      </li>
+    </MenuItem>
+    <MenuItem
+      deselectable={false}
+      disabled={false}
+      divider={false}
+      header={false}
+      href=""
+      noRootClose={false}
+      selectData="A"
+    >
+      <li
+        className=""
+        style={null}
+      >
+        <a
+          href=""
+          onClick={[Function]}
+        >
+          Menu Enabled
+        </a>
+      </li>
+    </MenuItem>
+    <MenuItem
+      deselectable={false}
+      disabled={false}
+      divider={true}
+      header={false}
+      href=""
+      noRootClose={false}
+    >
+      <li
+        className="divider"
+      />
+    </MenuItem>
+    <MenuItem
+      deselectable={false}
+      disabled={true}
+      divider={false}
+      header={false}
+      href=""
+      noRootClose={false}
+      selectData="B"
+    >
+      <li
+        className="disabled"
+        style={null}
+      >
+        <a
+          href=""
+          onClick={[Function]}
+        >
+          Menu Disabled
+        </a>
+      </li>
+    </MenuItem>
+    <div>
+      simple component
+    </div>
+  </ul>
+</Menu>
+`;
+
+exports[`Menu render Menu - subMenu correctly 1`] = `
+<Menu
+  bsClass="dropdown-menu"
+  isMenuAlignRight={false}
+  isMenuCheckStyle={false}
+  isMenuOpen={false}
+  isSubMenuOpenLeft={false}
+  noRootClose={false}
+  subMenu={true}
+>
+  <RootCloseWrapper
+    disabled={true}
+    event="click"
+  >
+    <ul
+      className="dropdown-menu"
+      style={
+        Object {
+          "display": "none",
+          "left": "100%",
+          "marginTop": 0,
+          "position": "absolute",
+          "top": 0,
+        }
+      }
+    >
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={true}
+        href=""
+        noRootClose={false}
+      >
+        <li
+          className="dropdown-header"
+        >
+          Menu Header
+        </li>
+      </MenuItem>
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+        selectData="A"
+      >
+        <li
+          className=""
+          style={null}
+        >
+          <a
+            href=""
+            onClick={[Function]}
+          >
+            Menu Enabled
+          </a>
+        </li>
+      </MenuItem>
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={true}
+        header={false}
+        href=""
+        noRootClose={false}
+      >
+        <li
+          className="divider"
+        />
+      </MenuItem>
+      <MenuItem
+        deselectable={false}
+        disabled={true}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+        selectData="B"
+      >
+        <li
+          className="disabled"
+          style={null}
+        >
+          <a
+            href=""
+            onClick={[Function]}
+          >
+            Menu Disabled
+          </a>
+        </li>
+      </MenuItem>
+      <div>
+        simple component
+      </div>
+    </ul>
+  </RootCloseWrapper>
+</Menu>
+`;
+
+exports[`Menu render Menu correctly 1`] = `
+<Menu
+  bsClass="dropdown-menu"
+  isMenuAlignRight={false}
+  isMenuCheckStyle={false}
+  isMenuOpen={false}
+  isSubMenuOpenLeft={false}
+  noRootClose={false}
+>
+  <RootCloseWrapper
+    disabled={true}
+    event="click"
+  >
+    <ul
+      className="dropdown-menu"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={true}
+        href=""
+        noRootClose={false}
+      >
+        <li
+          className="dropdown-header"
+        >
+          Menu Header
+        </li>
+      </MenuItem>
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+        selectData="A"
+      >
+        <li
+          className=""
+          style={null}
+        >
+          <a
+            href=""
+            onClick={[Function]}
+          >
+            Menu Enabled
+          </a>
+        </li>
+      </MenuItem>
+      <MenuItem
+        deselectable={false}
+        disabled={false}
+        divider={true}
+        header={false}
+        href=""
+        noRootClose={false}
+      >
+        <li
+          className="divider"
+        />
+      </MenuItem>
+      <MenuItem
+        deselectable={false}
+        disabled={true}
+        divider={false}
+        header={false}
+        href=""
+        noRootClose={false}
+        selectData="B"
+      >
+        <li
+          className="disabled"
+          style={null}
+        >
+          <a
+            href=""
+            onClick={[Function]}
+          >
+            Menu Disabled
+          </a>
+        </li>
+      </MenuItem>
+      <div>
+        simple component
+      </div>
+    </ul>
+  </RootCloseWrapper>
+</Menu>
+`;

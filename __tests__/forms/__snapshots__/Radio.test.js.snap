@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio with checked props after checked changed should render correctly 1`] = `
+<Radio
+  bsClass="radio"
+  checked={true}
+  inline={false}
+  inputType="radio"
+  labelAlign="right"
+  onChange={[Function]}
+  singleCheckboxRadio={true}
+  standalone={true}
+  wrapperClassName="col-xs-offset-2 col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        checked={true}
+        onChange={[Function]}
+        singleCheckboxRadio={true}
+        type="radio"
+      />
+    }
+    bsClass="radio"
+    checked={true}
+    inline={false}
+    inputType="radio"
+    labelAlign="right"
+    onChange={[Function]}
+    singleCheckboxRadio={true}
+    standalone={true}
+    wrapperClassName="col-xs-offset-2 col-xs-10"
+  >
+    <div
+      className="radio"
+    >
+      <Label
+        FieldBase={
+          <input
+            checked={true}
+            onChange={[Function]}
+            singleCheckboxRadio={true}
+            type="radio"
+          />
+        }
+        className="checked checkbox-radio-label radio-wrapper"
+        inline={false}
+        inputType="radio"
+        labelAlign="right"
+        onChange={[Function]}
+        wrapperClassName="col-xs-offset-2 col-xs-10"
+      >
+        <label
+          className="checked checkbox-radio-label radio-wrapper"
+        >
+          <input
+            checked={true}
+            onChange={[Function]}
+            singleCheckboxRadio={true}
+            type="radio"
+          />
+        </label>
+      </Label>
+    </div>
+  </LayoutHelper>
+</Radio>
+`;
+
+exports[`Radio with checked props should render corrently 1`] = `
+<Radio
+  bsClass="radio"
+  checked={false}
+  inline={false}
+  inputType="radio"
+  labelAlign="right"
+  onChange={[Function]}
+  singleCheckboxRadio={true}
+  standalone={true}
+  wrapperClassName="col-xs-offset-2 col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        checked={false}
+        onChange={[Function]}
+        singleCheckboxRadio={true}
+        type="radio"
+      />
+    }
+    bsClass="radio"
+    checked={false}
+    inline={false}
+    inputType="radio"
+    labelAlign="right"
+    onChange={[Function]}
+    singleCheckboxRadio={true}
+    standalone={true}
+    wrapperClassName="col-xs-offset-2 col-xs-10"
+  >
+    <div
+      className="radio"
+    >
+      <Label
+        FieldBase={
+          <input
+            checked={false}
+            onChange={[Function]}
+            singleCheckboxRadio={true}
+            type="radio"
+          />
+        }
+        className="checkbox-radio-label radio-wrapper"
+        inline={false}
+        inputType="radio"
+        labelAlign="right"
+        onChange={[Function]}
+        wrapperClassName="col-xs-offset-2 col-xs-10"
+      >
+        <label
+          className="checkbox-radio-label radio-wrapper"
+        >
+          <input
+            checked={false}
+            onChange={[Function]}
+            singleCheckboxRadio={true}
+            type="radio"
+          />
+        </label>
+      </Label>
+    </div>
+  </LayoutHelper>
+</Radio>
+`;
+
+exports[`Radio with default props should render corrently 1`] = `
+<Radio
+  bsClass="radio"
+  inline={false}
+  inputType="radio"
+  labelAlign="right"
+  onChange={[Function]}
+  singleCheckboxRadio={true}
+  standalone={true}
+  wrapperClassName="col-xs-offset-2 col-xs-10"
+>
+  <LayoutHelper
+    FieldBase={
+      <input
+        onChange={[Function]}
+        singleCheckboxRadio={true}
+        type="radio"
+      />
+    }
+    bsClass="radio"
+    checked={false}
+    inline={false}
+    inputType="radio"
+    labelAlign="right"
+    onChange={[Function]}
+    singleCheckboxRadio={true}
+    standalone={true}
+    wrapperClassName="col-xs-offset-2 col-xs-10"
+  >
+    <div
+      className="radio"
+    >
+      <Label
+        FieldBase={
+          <input
+            onChange={[Function]}
+            singleCheckboxRadio={true}
+            type="radio"
+          />
+        }
+        className="checkbox-radio-label radio-wrapper"
+        inline={false}
+        inputType="radio"
+        labelAlign="right"
+        onChange={[Function]}
+        wrapperClassName="col-xs-offset-2 col-xs-10"
+      >
+        <label
+          className="checkbox-radio-label radio-wrapper"
+        >
+          <input
+            onChange={[Function]}
+            singleCheckboxRadio={true}
+            type="radio"
+          />
+        </label>
+      </Label>
+    </div>
+  </LayoutHelper>
+</Radio>
+`;
